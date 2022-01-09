@@ -14,35 +14,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
-  text-align: center;
   background-color: #dff0ec; }
-  #bodyindex header {
-    width: 100vw;
-    height: auto;
-    padding-bottom: 5vh; }
-    #bodyindex header a img {
-      margin-top: 3vh;
-      width: 6vw; }
-    #bodyindex header hr.solid {
-      height: 2px;
-      width: 100vw;
-      color: #28486f; }
-    #bodyindex header .menudesktop ul {
-      margin: 0;
-      padding: 0; }
-      #bodyindex header .menudesktop ul li {
-        display: inline;
-        padding: 1vh; }
-        #bodyindex header .menudesktop ul li:hover {
-          background-color: rgba(8, 167, 125, 0.5);
-          transition-duration: 800ms;
-          padding: 0.5vw; }
-        #bodyindex header .menudesktop ul li a {
-          text-decoration: none;
-          color: #52161b;
-          font-size: 1vw; }
-    #bodyindex header .menumobile {
-      display: none; }
   #bodyindex .section1 {
     display: flex;
     justify-content: left;
@@ -74,8 +46,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    text-align: center;
     align-items: center;
+    text-align: center;
     background-color: #fae8f6; }
     #bodyindex .section2 .div2 {
       width: 50vw;
@@ -87,8 +59,10 @@
         padding-bottom: 8vh;
         padding-top: 4vw; }
         #bodyindex .section2 .div2 h2:hover {
-          font-size: 8vh;
-          transition-duration: 800ms; }
+          font-size: 2.5vw;
+          transition-duration: 300ms;
+          animation-name: rollout;
+          animation-duration: 300ms; }
       #bodyindex .section2 .div2 h3 {
         font-size: 2vh;
         color: #7d1b25;
@@ -102,22 +76,24 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
+    text-align: center;
     width: 100vw;
     height: 20vh;
     margin: 10vh 0vh;
     padding: 10vh 0vh; }
     #bodyindex .section3 h2 {
-      font-size: 2vw;
+      font-size: 6vh;
       color: #28486f;
       padding-bottom: 3vh; }
       #bodyindex .section3 h2:hover {
-        font-size: 8vh;
-        transition-duration: 800ms; }
+        font-size: 2.5vw;
+        transition-duration: 300ms;
+        animation-name: rollout;
+        animation-duration: 300ms; }
     #bodyindex .section3 h4 {
-      font-size: 1vw;
+      font-size: 3vh;
       color: #28486f; }
   #bodyindex .section4 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -126,8 +102,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    text-align: center;
     align-items: center;
+    text-align: center;
     background-color: #fae8f6;
     margin-left: 4vw;
     margin-right: 4vw;
@@ -140,9 +116,12 @@
         color: #7d1b25;
         padding-bottom: 8vh; }
         #bodyindex .section4 .div4 h2:hover {
-          font-size: 8vh;
-          transition-duration: 800ms; }
+          font-size: 2.5vw;
+          transition-duration: 300ms;
+          animation-name: rollout;
+          animation-duration: 300ms; }
       #bodyindex .section4 .div4 h3 {
+        text-align: left;
         font-size: 2vh;
         color: #7d1b25;
         padding: 0 5vw; }
@@ -173,9 +152,12 @@
         color: #7d1b25;
         padding-bottom: 8vh; }
         #bodyindex .section5 .div7 h2:hover {
-          font-size: 8vh;
-          transition-duration: 800ms; }
+          font-size: 2.5vw;
+          transition-duration: 300ms;
+          animation-name: rollout;
+          animation-duration: 300ms; }
       #bodyindex .section5 .div7 h3 {
+        text-align: left;
         font-size: 2vh;
         color: #7d1b25;
         padding: 0 5vw; }
@@ -186,19 +168,16 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    text-align: center;
     align-items: center;
     margin-bottom: 8vh;
     width: 100vw; }
     #bodyindex .section6 h4 {
+      text-align: center;
       font-size: 3vh;
       color: #08a77d;
       padding: 4vh 6vw;
       width: 80vw;
       height: auto; }
-      #bodyindex .section6 h4:hover {
-        font-size: 2vw;
-        transition-duration: 800ms; }
     #bodyindex .section6 a {
       text-decoration: none;
       color: #dff0ec;
@@ -208,3 +187,171 @@
       #bodyindex .section6 a:hover {
         color: #dff0ec;
         background-color: #52161b; }
+
+#bodyacerca {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
+  grid-template-areas: "image text" "text" "image text" "text image" "image text";
+  background-color: #fae8f6; }
+  #bodyacerca .sec-acerca1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #dff0ec; }
+    #bodyacerca .sec-acerca1 .div8 {
+      grid-area: image; }
+      #bodyacerca .sec-acerca1 .div8 img {
+        width: 50vw;
+        height: auto; }
+    #bodyacerca .sec-acerca1 .div9 {
+      grid-area: text;
+      padding: 0 5vw;
+      width: 50vw;
+      height: auto; }
+      #bodyacerca .sec-acerca1 .div9 h1 {
+        text-align: center;
+        font-size: 2vw;
+        color: #28486f;
+        padding-bottom: 4vh; }
+      #bodyacerca .sec-acerca1 .div9 h2 {
+        text-align: left;
+        font-size: 2vh;
+        color: #28486f;
+        padding-bottom: 3vh; }
+  #bodyacerca .sec-acerca2 {
+    grid-area: text;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+    align-items: stretch;
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+    background-image: url(/img/palma.jpg); }
+    #bodyacerca .sec-acerca2 .div10 {
+      grid-area: text; }
+      #bodyacerca .sec-acerca2 .div10 h2 {
+        padding-top: 8vh;
+        padding-bottom: 3vh;
+        color: #fad95d;
+        font-size: 8vh; }
+      #bodyacerca .sec-acerca2 .div10 h3 {
+        padding-bottom: 8vh;
+        color: #fad95d;
+        font-size: 3vh; }
+  #bodyacerca .sec-acerca3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black; }
+    #bodyacerca .sec-acerca3 .div11 {
+      grid-area: image;
+      width: 50vw;
+      height: auto;
+      padding: 0 5vw 0 5vw; }
+      #bodyacerca .sec-acerca3 .div11 img {
+        width: 40vw;
+        height: 50vh; }
+    #bodyacerca .sec-acerca3 .div12 {
+      grid-area: text;
+      padding: 3vw 5vw 0 5vw;
+      background-color: #98ede3;
+      width: 50vw;
+      height: auto; }
+      #bodyacerca .sec-acerca3 .div12 h2 {
+        font-size: 1vw;
+        color: #52161b; }
+      #bodyacerca .sec-acerca3 .div12 h3 {
+        text-align: left;
+        font-size: 2vh;
+        color: #28486f;
+        padding-bottom: 3vh; }
+    #bodyacerca .sec-acerca3 .sec-acerca4 {
+      grid-area: text; }
+      #bodyacerca .sec-acerca3 .sec-acerca4 .div13 {
+        grid-area: text; }
+        #bodyacerca .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h2 {
+          font-size: 1vw;
+          color: #52161b; }
+        #bodyacerca .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h3 {
+          text-align: left;
+          font-size: 2vh;
+          color: #28486f;
+          padding-bottom: 3vh; }
+      #bodyacerca .sec-acerca3 .sec-acerca4 .div14 {
+        grid-area: image;
+        width: 40vw;
+        height: 50vh; }
+    #bodyacerca .sec-acerca3 .sec-acerca5 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center; }
+      #bodyacerca .sec-acerca3 .sec-acerca5 .div15 {
+        grid-area: image; }
+        #bodyacerca .sec-acerca3 .sec-acerca5 .div15 img {
+          width: 40vw;
+          height: 50vh; }
+    #bodyacerca .sec-acerca3 .div16 {
+      grid-area: text; }
+      #bodyacerca .sec-acerca3 .div16 .p-acerca2 h2 {
+        font-size: 1vw;
+        color: #52161b; }
+      #bodyacerca .sec-acerca3 .div16 .p-acerca2 h3 {
+        text-align: left;
+        font-size: 2vh;
+        color: #28486f;
+        padding-bottom: 3vh; }
+
+#bodyindex header, #bodyacerca header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  padding-bottom: 5vh;
+  grid-area: header; }
+  #bodyindex header a img, #bodyacerca header a img, #bodycombinaciones header a img, #bodypedidos header a img, #bodycontacto header a img {
+    margin-top: 3vh;
+    width: 6vw; }
+  #bodyindex header hr.solid, #bodyacerca header hr.solid, #bodycombinaciones header hr.solid, #bodypedidos header hr.solid, #bodycontacto header hr.solid {
+    height: 2px;
+    width: 100vw;
+    color: #28486f; }
+  #bodyindex header .menudesktop ul, #bodyacerca header .menudesktop ul, #bodycombinaciones header .menudesktop ul, #bodypedidos header .menudesktop ul, #bodycontacto header .menudesktop ul {
+    margin: 0;
+    padding: 0; }
+    #bodyindex header .menudesktop ul li, #bodyacerca header .menudesktop ul li, #bodycombinaciones header .menudesktop ul li, #bodypedidos header .menudesktop ul li, #bodycontacto header .menudesktop ul li {
+      display: inline;
+      padding: 1vh; }
+      #bodyindex header .menudesktop ul li:hover, #bodyacerca header .menudesktop ul li:hover, #bodycombinaciones header .menudesktop ul li:hover, #bodypedidos header .menudesktop ul li:hover, #bodycontacto header .menudesktop ul li:hover {
+        background-color: rgba(8, 167, 125, 0.3);
+        transition-duration: 800ms;
+        padding: 0.5vw; }
+      #bodyindex header .menudesktop ul li a, #bodyacerca header .menudesktop ul li a, #bodycombinaciones header .menudesktop ul li a, #bodypedidos header .menudesktop ul li a, #bodycontacto header .menudesktop ul li a {
+        text-decoration: none;
+        color: #52161b;
+        font-size: 1vw; }
+
+#bodyindex .menumobile, #bodyacerca .menumobile, #bodycombinaciones .menumobile, #bodypedidos .menumobile, #bodycontacto .menumobile {
+  display: none; }
+
+.container {
+  grid-area: footer; }

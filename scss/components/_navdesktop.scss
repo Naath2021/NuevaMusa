@@ -1,0 +1,40 @@
+#bodyindex, #bodyacerca, #bodycombinaciones, #bodypedidos, #bodycontacto{
+    header{
+        text-align: center;
+        width: $width100;
+        height: $heightauto;
+        padding-bottom: 5vh;
+        grid-area: header;
+        a{
+            img{
+                margin-top: $height3;
+                width: 6vw;
+            }
+        }
+        hr.solid{
+            height: 2px;
+            width: $width100;
+            color: $color5;
+        }
+        .menudesktop{
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline;
+                    padding: $size1;
+                    &:hover{
+                        background-color: rgba(8, 167, 125, 0.3);
+                        transition-duration: 800ms;
+                        padding: 0.5vw; 
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $coloroscuro;
+                        font-size: $font-size1;
+                    }
+                }
+            }
+        }
+    }
+}

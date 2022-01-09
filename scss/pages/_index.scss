@@ -1,0 +1,193 @@
+#bodyindex{
+    @include fonts;
+    @include flexcolumn;
+    background-color: $colorclaro;
+    .section1{
+        display: flex;
+        justify-content: left;
+        align-content:center;
+        justify-items: flex-start;
+        align-items: flex-start;
+        text-align: center;
+        padding-top: 8vh;
+        width: $width100;
+        height: $height100;
+        background-image: url(/img/bosqueslinea.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        .div1{
+            margin-left: 15vh;
+            padding: $height3;
+            h1{
+                font-style: italic;
+                font-size: 13vh;
+                color: $coloroscuro;
+            }
+            h3{
+                font-size: 5vh;
+                color: $color1;
+                font-style: italic;
+            }
+        }
+    }
+    .section2{
+        @include fonts;
+        @include flexrow;
+        align-items: center;
+        text-align: center;
+        background-color: $color4;
+        .div2{
+            width: $width50;
+            height: $heightauto;
+            h2{
+                @include fonts;
+                font-size: $font-size3;
+                color: $color1;
+                padding-bottom: $size4;
+                padding-top: $size2;
+                &:hover{
+                    font-size: ($font-size3 + 0.5vw);
+                    transition-duration: 300ms;
+                    animation-name: rollout;
+                    animation-duration: 300ms;
+                }
+            }
+            h3{
+                font-size: 2vh;
+                color: $color1;
+                padding: 0 5vw;
+            }
+        }
+        .div3{
+            img{
+                width: 50vw;
+                height: fit-content;
+            }
+        }
+    }
+    .section3{
+        @include flexcolumn;
+        @include fonts;
+        align-items: center;
+        text-align: center;
+        width: $width100;
+        height: ($height10 *2);
+        margin: $height10 0vh;
+        padding: $height10 0vh;
+        h2{
+            font-size: $size3;
+            color: $color5;
+            padding-bottom: $height3;
+            &:hover{
+                font-size: ($font-size3 + 0.5vw);
+                transition-duration: 300ms;
+                animation-name: rollout;
+                animation-duration: 300ms;
+            }
+        }
+        h4{
+            font-size: $height3;
+            color: $color5;
+        }
+    }
+    .section4{
+        @include fonts;
+        @include flexrow;
+        align-items: center;
+        text-align: center;
+        background-color: $color4;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-bottom: 2vh;
+        .div4{
+            width: $width100;
+            h2{
+                @include fonts;
+                font-size: $font-size3;
+                color: $color1;
+                padding-bottom: $size4;
+                &:hover{
+                    font-size: ($font-size3 + 0.5vw);
+                    transition-duration: 300ms;
+                    animation-name: rollout;
+                    animation-duration: 300ms;
+                }
+            }
+            h3{
+                text-align: left;
+                font-size: 2vh;
+                color: $color1;
+                padding: 0 5vw;
+            }
+        }
+        .div5{
+            img{
+                width: ($width50 - 4vw);
+                height: $heightauto;
+            }
+        }
+    }
+    .section5{
+        @include fonts;
+        @include flexrow;
+        text-align: center;
+        align-items: center;
+        background-color: $color4;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-bottom: $size4;
+        .div6{
+            img{
+                width: ($width50 - 5vw);
+                height: $heightauto;
+            }
+        }
+        .div7{
+            width: $width100;
+            h2{
+                @include fonts;
+                font-size: $font-size3;
+                color: $color1;
+                padding-bottom: $size4;
+                &:hover{
+                    font-size: ($font-size3 + 0.5vw);
+                    transition-duration: 300ms;
+                    animation-name: rollout;
+                    animation-duration: 300ms;
+                }
+            }
+            h3{
+                text-align: left;
+                font-size: 2vh;
+                color: $color1;
+                padding: 0 5vw;
+            }
+        }
+    }
+    .section6{
+        @include fonts;
+        @include flexcolumn;
+        align-items: center;
+        margin-bottom: $size4;
+        width: $width100;
+        h4{
+            text-align: center;
+            font-size: $height3;
+            color: $color3;
+            padding: 4vh 6vw;
+            width: $width80;
+            height: $heightauto;
+            }
+        a{
+            text-decoration: none;
+            color: $colorclaro;
+            font-size: $font-size1;
+            background-color: $color1;
+            padding: 1vh 1vw;
+            &:hover{
+                color: $colorclaro; 
+                background-color: $coloroscuro;
+            }
+        }
+    }
+}
