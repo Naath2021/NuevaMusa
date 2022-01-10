@@ -1,0 +1,26 @@
+.btn{
+    @include fonts;
+    @include flexcolumn;
+    align-items: center;
+    margin-bottom: $size4;
+    width: $width100;
+    h4{
+        text-align: center;
+        font-size: $height3;
+        color: $color3;
+        padding: 4vh 6vw;
+        width: $width80;
+        height: $heightauto;
+        }
+    a{
+        text-decoration: none;
+        color: $colorclaro;
+        font-size: $font-size1;
+        background-color: $color1;
+        padding: 1vh 1vw;
+        &:hover{
+            color: $colorclaro; 
+            background-color: $coloroscuro;
+        }
+    }
+}

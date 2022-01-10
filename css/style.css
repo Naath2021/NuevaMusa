@@ -26,8 +26,9 @@
     width: 100vw;
     height: 100vh;
     background-image: url(/img/bosqueslinea.JPG);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-attachment: fixed; }
     #bodyindex .section1 .div1 {
       margin-left: 15vh;
       padding: 3vh; }
@@ -54,12 +55,12 @@
       height: auto; }
       #bodyindex .section2 .div2 h2 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2vw;
+        font-size: 2vh;
         color: #7d1b25;
         padding-bottom: 8vh;
         padding-top: 4vw; }
         #bodyindex .section2 .div2 h2:hover {
-          font-size: 2.5vw;
+          font-size: 2vh;
           transition-duration: 300ms;
           animation-name: rollout;
           animation-duration: 300ms; }
@@ -88,14 +89,14 @@
       color: #28486f;
       padding-bottom: 3vh; }
       #bodyindex .section3 h2:hover {
-        font-size: 2.5vw;
+        font-size: 2vh;
         transition-duration: 300ms;
         animation-name: rollout;
         animation-duration: 300ms; }
     #bodyindex .section3 h4 {
       font-size: 3vh;
       color: #28486f; }
-  #bodyindex .section4 {
+  #bodyindex .section4, #bodyindex .section5 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: row;
@@ -108,99 +109,36 @@
     margin-left: 4vw;
     margin-right: 4vw;
     margin-bottom: 2vh; }
-    #bodyindex .section4 .div4 {
+    #bodyindex .section4 .div4, #bodyindex .section4 .div7, #bodyindex .section5 .div4, #bodyindex .section5 .div7 {
       width: 100vw; }
-      #bodyindex .section4 .div4 h2 {
+      #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2vw;
+        font-size: 2vh;
         color: #7d1b25;
         padding-bottom: 8vh; }
-        #bodyindex .section4 .div4 h2:hover {
-          font-size: 2.5vw;
+        #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
+          font-size: 2vh;
           transition-duration: 300ms;
           animation-name: rollout;
           animation-duration: 300ms; }
-      #bodyindex .section4 .div4 h3 {
+      #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
         text-align: left;
         font-size: 2vh;
         color: #7d1b25;
         padding: 0 5vw; }
-    #bodyindex .section4 .div5 img {
+    #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
       width: 46vw;
       height: auto; }
-  #bodyindex .section5 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: #fae8f6;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    margin-bottom: 8vh; }
-    #bodyindex .section5 .div6 img {
-      width: 45vw;
-      height: auto; }
-    #bodyindex .section5 .div7 {
-      width: 100vw; }
-      #bodyindex .section5 .div7 h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2vw;
-        color: #7d1b25;
-        padding-bottom: 8vh; }
-        #bodyindex .section5 .div7 h2:hover {
-          font-size: 2.5vw;
-          transition-duration: 300ms;
-          animation-name: rollout;
-          animation-duration: 300ms; }
-      #bodyindex .section5 .div7 h3 {
-        text-align: left;
-        font-size: 2vh;
-        color: #7d1b25;
-        padding: 0 5vw; }
-  #bodyindex .section6 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 8vh;
-    width: 100vw; }
-    #bodyindex .section6 h4 {
-      text-align: center;
-      font-size: 3vh;
-      color: #08a77d;
-      padding: 4vh 6vw;
-      width: 80vw;
-      height: auto; }
-    #bodyindex .section6 a {
-      text-decoration: none;
-      color: #dff0ec;
-      font-size: 1vw;
-      background-color: #7d1b25;
-      padding: 1vh 1vw; }
-      #bodyindex .section6 a:hover {
-        color: #dff0ec;
-        background-color: #52161b; }
 
-#bodyacerca {
+#bodysobremusa {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
-  display: grid;
-  grid-template-columns: 50vw 50vw;
-  grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
-  grid-template-areas: "image text" "text" "image text" "text image" "image text";
   background-color: #fae8f6; }
-  #bodyacerca .sec-acerca1 {
+  #bodysobremusa .sec-acerca1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: row;
@@ -209,28 +147,24 @@
     align-content: center;
     align-items: center;
     background-color: #dff0ec; }
-    #bodyacerca .sec-acerca1 .div8 {
-      grid-area: image; }
-      #bodyacerca .sec-acerca1 .div8 img {
-        width: 50vw;
-        height: auto; }
-    #bodyacerca .sec-acerca1 .div9 {
-      grid-area: text;
+    #bodysobremusa .sec-acerca1 .div8 img {
+      width: 50vw;
+      height: auto; }
+    #bodysobremusa .sec-acerca1 .div9 {
       padding: 0 5vw;
       width: 50vw;
       height: auto; }
-      #bodyacerca .sec-acerca1 .div9 h1 {
+      #bodysobremusa .sec-acerca1 .div9 h1 {
         text-align: center;
-        font-size: 2vw;
+        font-size: 2vh;
         color: #28486f;
         padding-bottom: 4vh; }
-      #bodyacerca .sec-acerca1 .div9 h2 {
+      #bodysobremusa .sec-acerca1 .div9 h2 {
         text-align: left;
         font-size: 2vh;
         color: #28486f;
         padding-bottom: 3vh; }
-  #bodyacerca .sec-acerca2 {
-    grid-area: text;
+  #bodysobremusa .sec-acerca2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -243,115 +177,188 @@
     width: 100vw;
     height: 40vh;
     text-align: center;
-    background-image: url(/img/palma.jpg); }
-    #bodyacerca .sec-acerca2 .div10 {
-      grid-area: text; }
-      #bodyacerca .sec-acerca2 .div10 h2 {
-        padding-top: 8vh;
-        padding-bottom: 3vh;
-        color: #fad95d;
-        font-size: 8vh; }
-      #bodyacerca .sec-acerca2 .div10 h3 {
-        padding-bottom: 8vh;
-        color: #fad95d;
-        font-size: 3vh; }
-  #bodyacerca .sec-acerca3 {
+    background-image: url(/img/palma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    #bodysobremusa .sec-acerca2 .div10 h2 {
+      padding-top: 8vh;
+      padding-bottom: 3vh;
+      color: #fad95d;
+      font-size: 8vh; }
+    #bodysobremusa .sec-acerca2 .div10 h3 {
+      padding-bottom: 8vh;
+      color: #fad95d;
+      font-size: 3vh; }
+  #bodysobremusa .sec-acerca3 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
     border: 1px solid black; }
-    #bodyacerca .sec-acerca3 .div11 {
-      grid-area: image;
+    #bodysobremusa .sec-acerca3 .div11 {
       width: 50vw;
       height: auto;
       padding: 0 5vw 0 5vw; }
-      #bodyacerca .sec-acerca3 .div11 img {
+      #bodysobremusa .sec-acerca3 .div11 img {
         width: 40vw;
         height: 50vh; }
-    #bodyacerca .sec-acerca3 .div12 {
-      grid-area: text;
+    #bodysobremusa .sec-acerca3 .div12 {
       padding: 3vw 5vw 0 5vw;
       background-color: #98ede3;
       width: 50vw;
       height: auto; }
-      #bodyacerca .sec-acerca3 .div12 h2 {
-        font-size: 1vw;
+      #bodysobremusa .sec-acerca3 .div12 h2 {
+        font-size: 1vh;
         color: #52161b; }
-      #bodyacerca .sec-acerca3 .div12 h3 {
+      #bodysobremusa .sec-acerca3 .div12 h3 {
         text-align: left;
         font-size: 2vh;
         color: #28486f;
         padding-bottom: 3vh; }
-    #bodyacerca .sec-acerca3 .sec-acerca4 {
-      grid-area: text; }
-      #bodyacerca .sec-acerca3 .sec-acerca4 .div13 {
-        grid-area: text; }
-        #bodyacerca .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h2 {
-          font-size: 1vw;
-          color: #52161b; }
-        #bodyacerca .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h3 {
-          text-align: left;
-          font-size: 2vh;
-          color: #28486f;
-          padding-bottom: 3vh; }
-      #bodyacerca .sec-acerca3 .sec-acerca4 .div14 {
-        grid-area: image;
-        width: 40vw;
-        height: 50vh; }
-    #bodyacerca .sec-acerca3 .sec-acerca5 {
+    #bodysobremusa .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h2 {
+      font-size: 1vh;
+      color: #52161b; }
+    #bodysobremusa .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h3 {
+      text-align: left;
+      font-size: 2vh;
+      color: #28486f;
+      padding-bottom: 3vh; }
+    #bodysobremusa .sec-acerca3 .sec-acerca4 .div14 {
+      width: 40vw;
+      height: 50vh; }
+    #bodysobremusa .sec-acerca3 .sec-acerca5 {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: center;
       align-content: center; }
-      #bodyacerca .sec-acerca3 .sec-acerca5 .div15 {
-        grid-area: image; }
-        #bodyacerca .sec-acerca3 .sec-acerca5 .div15 img {
-          width: 40vw;
-          height: 50vh; }
-    #bodyacerca .sec-acerca3 .div16 {
-      grid-area: text; }
-      #bodyacerca .sec-acerca3 .div16 .p-acerca2 h2 {
-        font-size: 1vw;
-        color: #52161b; }
-      #bodyacerca .sec-acerca3 .div16 .p-acerca2 h3 {
-        text-align: left;
-        font-size: 2vh;
-        color: #28486f;
-        padding-bottom: 3vh; }
+      #bodysobremusa .sec-acerca3 .sec-acerca5 .div15 img {
+        width: 40vw;
+        height: 50vh; }
+    #bodysobremusa .sec-acerca3 .div16 .p-acerca2 h2 {
+      font-size: 1vh;
+      color: #52161b; }
+    #bodysobremusa .sec-acerca3 .div16 .p-acerca2 h3 {
+      text-align: left;
+      font-size: 2vh;
+      color: #28486f;
+      padding-bottom: 3vh; }
 
-#bodyindex header, #bodyacerca header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
+#bodycontacto {
+  background-color: #dff0ec; }
+  #bodycontacto .sec-contacto1 {
+    margin: 1.5vh 0 5vh 0; }
+    #bodycontacto .sec-contacto1 h1 {
+      font-weight: 400;
+      margin-bottom: 5vh;
+      text-align: center;
+      font-size: 6vh;
+      color: #28486f; }
+    #bodycontacto .sec-contacto1 h2 {
+      font-weight: 400;
+      padding: 0.5 0 0.5 0;
+      font-size: 2vh;
+      color: #52161b;
+      text-align: center; }
+    #bodycontacto .sec-contacto1 a {
+      font-weight: 400;
+      padding: 0.5 0 0.5 0;
+      font-size: 2vh;
+      color: #52161b;
+      text-align: center; }
+  #bodycontacto .sec-contacto2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    #bodycontacto .sec-contacto2 .input-group {
+      width: 50vw; }
+    #bodycontacto .sec-contacto2 .input-group-text {
+      background-color: #7d1b25;
+      color: #fae8f6;
+      border: 1px solid #dff0ec; }
+    #bodycontacto .sec-contacto2 h2 {
+      color: #7d1b25;
+      padding: 6vh 0 10vh 0; }
+    #bodycontacto .sec-contacto2 h3 {
+      font-size: 3vh;
+      color: #7d1b25;
+      padding: 6vh 0 10vh 0; }
+    #bodycontacto .sec-contacto2 .btn {
+      background-color: #fae8f6;
+      color: #52161b;
+      margin: 1.5vh 0;
+      border: 1px solid #7d1b25; }
+
+#bodyindex header, #bodysobremusa header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
   text-align: center;
   width: 100vw;
   height: auto;
   padding-bottom: 5vh;
   grid-area: header; }
-  #bodyindex header a img, #bodyacerca header a img, #bodycombinaciones header a img, #bodypedidos header a img, #bodycontacto header a img {
+  #bodyindex header a img, #bodysobremusa header a img, #bodycombinaciones header a img, #bodypedidos header a img, #bodycontacto header a img {
     margin-top: 3vh;
     width: 6vw; }
-  #bodyindex header hr.solid, #bodyacerca header hr.solid, #bodycombinaciones header hr.solid, #bodypedidos header hr.solid, #bodycontacto header hr.solid {
+  #bodyindex header hr.solid, #bodysobremusa header hr.solid, #bodycombinaciones header hr.solid, #bodypedidos header hr.solid, #bodycontacto header hr.solid {
     height: 2px;
     width: 100vw;
     color: #28486f; }
-  #bodyindex header .menudesktop ul, #bodyacerca header .menudesktop ul, #bodycombinaciones header .menudesktop ul, #bodypedidos header .menudesktop ul, #bodycontacto header .menudesktop ul {
+  #bodyindex header .menudesktop ul, #bodysobremusa header .menudesktop ul, #bodycombinaciones header .menudesktop ul, #bodypedidos header .menudesktop ul, #bodycontacto header .menudesktop ul {
     margin: 0;
     padding: 0; }
-    #bodyindex header .menudesktop ul li, #bodyacerca header .menudesktop ul li, #bodycombinaciones header .menudesktop ul li, #bodypedidos header .menudesktop ul li, #bodycontacto header .menudesktop ul li {
+    #bodyindex header .menudesktop ul li, #bodysobremusa header .menudesktop ul li, #bodycombinaciones header .menudesktop ul li, #bodypedidos header .menudesktop ul li, #bodycontacto header .menudesktop ul li {
       display: inline;
       padding: 1vh; }
-      #bodyindex header .menudesktop ul li:hover, #bodyacerca header .menudesktop ul li:hover, #bodycombinaciones header .menudesktop ul li:hover, #bodypedidos header .menudesktop ul li:hover, #bodycontacto header .menudesktop ul li:hover {
+      #bodyindex header .menudesktop ul li:hover, #bodysobremusa header .menudesktop ul li:hover, #bodycombinaciones header .menudesktop ul li:hover, #bodypedidos header .menudesktop ul li:hover, #bodycontacto header .menudesktop ul li:hover {
         background-color: rgba(8, 167, 125, 0.3);
         transition-duration: 800ms;
         padding: 0.5vw; }
-      #bodyindex header .menudesktop ul li a, #bodyacerca header .menudesktop ul li a, #bodycombinaciones header .menudesktop ul li a, #bodypedidos header .menudesktop ul li a, #bodycontacto header .menudesktop ul li a {
+      #bodyindex header .menudesktop ul li a, #bodysobremusa header .menudesktop ul li a, #bodycombinaciones header .menudesktop ul li a, #bodypedidos header .menudesktop ul li a, #bodycontacto header .menudesktop ul li a {
         text-decoration: none;
         color: #52161b;
-        font-size: 1vw; }
+        font-size: 2vh; }
 
-#bodyindex .menumobile, #bodyacerca .menumobile, #bodycombinaciones .menumobile, #bodypedidos .menumobile, #bodycontacto .menumobile {
+#bodyindex .menumobile, #bodysobremusa .menumobile, #bodycombinaciones .menumobile, #bodypedidos .menumobile, #bodycontacto .menumobile {
   display: none; }
 
 .container {
   grid-area: footer; }
+
+#bodycontacto {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center; }
+
+.btn {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 8vh;
+  width: 100vw; }
+  .btn h4 {
+    text-align: center;
+    font-size: 3vh;
+    color: #08a77d;
+    padding: 4vh 6vw;
+    width: 80vw;
+    height: auto; }
+  .btn a {
+    text-decoration: none;
+    color: #dff0ec;
+    font-size: 1vh;
+    background-color: #7d1b25;
+    padding: 1vh 1vw; }
+    .btn a:hover {
+      color: #dff0ec;
+      background-color: #52161b; }

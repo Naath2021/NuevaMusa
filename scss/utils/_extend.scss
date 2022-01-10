@@ -1,0 +1,25 @@
+%comb-section{
+    @include flexcolumn;
+    align-items: center;
+    height: $height100;
+    width: $width100;
+}
+%img-comb{
+    width: ($size6 -$size2);
+    height: $heightauto;
+}
+%h3-comb{
+    font-size: $size8;
+    padding-bottom: $size3;
+    padding-top: $size2;
+}
+%h4-comb{
+    padding-top: $height3;
+    font-size: 1.2vw;
+    width: $width50 +$width10;
+    text-align: justify;
+}
+%body{
+    @include fonts;
+    @include flexcolumn;
+}

@@ -1,10 +1,6 @@
-#bodyacerca{
+#bodysobremusa{
     @include fonts;
     @include flexcolumn;
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 100vh 100vh 100vh 100vh 100vh;
-    grid-template-areas:"image text" "text" "image text" "text image" "image text";
     background-color: $color4;
     .sec-acerca1{
         @include fonts;
@@ -12,14 +8,12 @@
         align-items: center;
         background-color: $colorclaro;
         .div8{
-            grid-area: image;
             img{
                 width: $width50;
                 height: $heightauto;
             }
         }
         .div9{
-            grid-area: text;
             padding: 0 5vw;
             width: $width50;
             height: $heightauto;
@@ -38,7 +32,6 @@
         }
     }
     .sec-acerca2{
-        grid-area: text;
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -52,8 +45,8 @@
         height: 40vh;
         text-align: center;
         background-image: url(/img/palma.jpg);
+        @include background;
         .div10{
-            grid-area: text;
             h2{
                 padding-top: $size4;
                 padding-bottom: $height3;
@@ -71,7 +64,6 @@
         @include flexrow;
         border: 1px solid black;
         .div11{
-            grid-area: image; 
             width: $width50;
             height: $heightauto;
             padding: 0 5vw 0 5vw;
@@ -81,7 +73,6 @@
             }
         }
         .div12{
-            grid-area: text;
             padding: 3vw 5vw 0 5vw;
             background-color: $color7;
             width: $width50;
@@ -98,9 +89,7 @@
             }
         }
         .sec-acerca4{
-            grid-area: text;
             .div13{
-                grid-area: text;
                 .p-acerca1{
                     h2{
                         font-size: $font-size1;
@@ -115,7 +104,6 @@
                 }
             }
             .div14{
-                grid-area: image;
                 width: $width50 -$width10;
                 height: $height50;
             }
@@ -123,7 +111,6 @@
         .sec-acerca5{
             @include flexrow;
             .div15{
-                grid-area: image;
                 img{
                     width: $width50 -$width10;
                     height: $height50;
@@ -131,7 +118,6 @@
                 }
             }
             .div16{
-                grid-area: text;
                 .p-acerca2{
                     h2{
                         font-size: $font-size1;

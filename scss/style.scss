@@ -1,6 +1,7 @@
 @import "./scss/vars/colors", "./scss/vars/sizes";
 @import "./scss/base/base";
 @import "./scss/mixin/mixin";
-@import "./scss/pages/index.scss", "./scss/pages/acerca", "./scss/pages/combinaciones", "./scss/pages/pedidos", "./scss/pages/contacto";
+@import "./scss/pages/index.scss", "./scss/pages/sobremusa", "./scss/pages/combinaciones", "./scss/pages/pedidos", "./scss/pages/contacto";
 @import "./scss/components/navdesktop", "./scss/components/navmobile","./scss/components/footer";
+@import "./scss/utils/extend", "./scss/utils/buttons";
 
