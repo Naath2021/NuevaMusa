@@ -7,10 +7,11 @@
         @include flexrow;
         align-items: center;
         background-color: $colorclaro;
+        height: $height100;
         .div8{
             img{
-                width: $width50;
-                height: $heightauto;
+                width: auto;
+                height: $height100;
             }
         }
         .div9{

@@ -140,10 +140,11 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: #dff0ec; }
+    background-color: #dff0ec;
+    height: 100vh; }
     #bodysobremusa .sec-acerca1 .div8 img {
-      width: 50vw;
-      height: auto; }
+      width: auto;
+      height: 100vh; }
     #bodysobremusa .sec-acerca1 .div9 {
       padding: 0 5vw;
       width: 50vw;
