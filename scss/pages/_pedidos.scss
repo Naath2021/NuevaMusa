@@ -1,0 +1,38 @@
+#bodypedidos{
+    background-color: $color4;
+    section{
+        @include flexcolumn;
+        align-content: center;
+        align-items: center;
+        img{
+            width: $width10 *2;
+            height: $heightauto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgb(31, 25, 25);
+            margin-top: $size3;
+        }
+        h1{
+            color: $coloroscuro;
+            font-size: $height3;
+            padding: $size3 0;
+        }
+        h2{
+            width: $width50;
+            height: $heightauto;
+            font-size: $font-size3;
+            text-align: justify;
+            padding-bottom: $size10;
+        }
+        a{
+            border: 1px solid $color1;
+            @include textdeco;
+            background-color: $color1;
+            color: $colorclaro;
+            padding: 7px;
+            margin-bottom: 15vh;
+            &:hover{
+                background-color: $coloroscuro;
+            }
+        }
+    }
+}

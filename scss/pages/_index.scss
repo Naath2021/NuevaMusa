@@ -4,28 +4,32 @@
     background-color: $colorclaro;
     .section1{
         display: flex;
-        justify-content: left;
-        align-content:center;
-        justify-items: flex-start;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: center;
         text-align: center;
-        padding-top: 8vh;
-        width: $width100;
+        padding-top: $size4;
+        padding-left: 6vw;
+        width: auto;
         height: $height100;
         background-image: url(/img/bosqueslinea.JPG);
         @include background;
         .div1{
-            margin-left: 15vh;
-            padding: $height3;
             h1{
+                text-align: right;
                 font-style: italic;
                 font-size: 13vh;
-                color: $coloroscuro;
+                color: $colorclaro;
+                text-shadow: 0 0 5px rgb(31, 25, 25);
             }
-            h3{
-                font-size: 5vh;
-                color: $color1;
+            h2{
+                font-size: $height3;
+                text-align: center;
+                color: $colorclaro;
+                text-shadow: 0 0 5px rgb(31, 25, 25);
                 font-style: italic;
+                font-weight: $weight;
             }
         }
     }
@@ -40,21 +44,20 @@
             height: $heightauto;
             h2{
                 @include fonts;
-                font-size: $font-size3;
+                font-size: $size10;
                 color: $color1;
                 padding-bottom: $size4;
                 padding-top: $size2;
                 &:hover{
-                    font-size: $font-size3;
+                    font-size: $size9;
                     transition-duration: 300ms;
-                    animation-name: rollout;
-                    animation-duration: 300ms;
                 }
             }
             h3{
-                font-size: 2vh;
+                font-size: $font-size3;
                 color: $color1;
                 padding: 0 5vw;
+                text-align: justify;
             }
         }
         .div3{
@@ -70,18 +73,15 @@
         align-items: center;
         text-align: center;
         width: $width100;
-        height: ($height10 *2);
-        margin: $height10 0vh;
+        height: 40vh;
         padding: $height10 0vh;
         h2{
             font-size: $size3;
             color: $color5;
             padding-bottom: $height3;
             &:hover{
-                font-size: $font-size3;
+                font-size: 7vh;
                 transition-duration: 300ms;
-                animation-name: rollout;
-                animation-duration: 300ms;
             }
         }
         h4{
@@ -95,33 +95,28 @@
         align-items: center;
         text-align: center;
         background-color: $color4;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-bottom: 2vh;
         .div4, .div7{
             width: $width100;
             h2{
                 @include fonts;
-                font-size: $font-size3;
+                font-size: $size10;
                 color: $color1;
                 padding-bottom: $size4;
                 &:hover{
-                    font-size: $font-size3;
+                    font-size: $size9;
                     transition-duration: 300ms;
-                    animation-name: rollout;
-                    animation-duration: 300ms;
                 }
             }
             h3{
                 text-align: left;
-                font-size: 2vh;
+                font-size: $font-size3;
                 color: $color1;
                 padding: 0 5vw;
             }
         }
         .div5, .div6{
             img{
-                width: ($width50 - 4vw);
+                width: 49.6vw;
                 height: $heightauto;
             }
         }

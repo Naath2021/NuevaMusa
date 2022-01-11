@@ -1,26 +1,38 @@
-.btn{
-    @include fonts;
-    @include flexcolumn;
-    align-items: center;
-    margin-bottom: $size4;
-    width: $width100;
-    h4{
-        text-align: center;
-        font-size: $height3;
-        color: $color3;
-        padding: 4vh 6vw;
-        width: $width80;
+#bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto{
+    .-btn{
+        @include fonts;
+        @include flexcolumn;
+        align-items: center;
+        margin: $height10 0;
+        padding: $height3 0 ;
+        width: $width100;
         height: $heightauto;
-        }
-    a{
-        text-decoration: none;
-        color: $colorclaro;
-        font-size: $font-size1;
-        background-color: $color1;
-        padding: 1vh 1vw;
-        &:hover{
-            color: $colorclaro; 
-            background-color: $coloroscuro;
+        h4{
+            text-align: center;
+            font-size: $height3;
+            color: $color3;
+            padding: $size10 0;
+            }
+        a{
+            text-decoration: none;
+            color: $colorclaro;
+            font-size: $font-size3;
+            background-color: $color1;
+            padding: 1vh 1vw;
+            border-radius: 5px;
+            &:hover{
+                color: $colorclaro; 
+                background-color: $coloroscuro;
+            }
         }
     }
+    .btn-to-top{
+        width: 0vw;
+        height: auto;
+        border: 0px;
+        align-self: center;
+        margin-bottom: $height3;
+    }
 }
+
+

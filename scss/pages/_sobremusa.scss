@@ -19,30 +19,24 @@
             height: $heightauto;
             h1{
                 text-align: center;
-                font-size: $font-size3;
+                font-size: $size9;
                 color: $color5;
                 padding-bottom: $height3+$size1;
             }
             h2{
                 text-align: left;
-                font-size: 2vh;
+                font-size: $font-size3;
                 color: $color5;
                 padding-bottom: $height3;
             }
         }
     }
     .sec-acerca2{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: center;
-        flex-direction: column;
-        width: 100vw;
+        @include flexcolumn;
         height: 40vh;
         text-align: center;
         align-items: stretch;
-        width: $width100;
-        height: 40vh;
+        width: auto;
         text-align: center;
         background-image: url(/img/palma.jpg);
         @include background;
@@ -50,111 +44,45 @@
             h2{
                 padding-top: $size4;
                 padding-bottom: $height3;
-                color: $color2;
+                color: $color1;
                 font-size: $size4;
             }
             h3{
                 padding-bottom: $size4;
-                color: $color2;
+                color: $color1;
                 font-size: $height3;
             }
         }
     }
-    .sec-acerca3{
+    .sec-acerca3, .sec-acerca4, .sec-acerca5{
         @include flexrow;
-        border: 1px solid black;
-        .div11{
-            width: $width50;
-            height: $heightauto;
-            padding: 0 5vw 0 5vw;
+        align-items: center;
+        margin: $size9 0;
+        .div11, .div14, .div15{
+            border: 15px solid $color4;
             img{
-                width: $width50 -$width10;
-                height: $height50;
+                border-radius: 5px;
+                width: 30vw;
+                height: 60vh;
             }
         }
-        .div12{
-            padding: 3vw 5vw 0 5vw;
-            background-color: $color7;
-            width: $width50;
-            height: $heightauto;
+        .div12, .div13, .div16{
+            background-color: $colorclaro;
+            width: 30vw;
+            height: 60vh;
+            border-radius: 5px;
             h2{
-                font-size: $font-size1;
+                padding: $height10 $size2 $height3 $size2;
+                font-size: $height3;
                 color: $coloroscuro;
+                text-align: center;
             }
             h3{
-                text-align: left;
-                font-size: 2vh;
+                text-align: justify;
+                font-size: $font-size3;
                 color: $color5;
-                padding-bottom: $height3;
+                padding: $height3 5vh;
             }
         }
-        .sec-acerca4{
-            .div13{
-                .p-acerca1{
-                    h2{
-                        font-size: $font-size1;
-                        color: $coloroscuro;
-                    }
-                    h3{
-                        text-align: left;
-                        font-size: 2vh;
-                        color: $color5;
-                        padding-bottom: $height3;
-                    }
-                }
-            }
-            .div14{
-                width: $width50 -$width10;
-                height: $height50;
-            }
-        }
-        .sec-acerca5{
-            @include flexrow;
-            .div15{
-                img{
-                    width: $width50 -$width10;
-                    height: $height50;
-                    } 
-                }
-            }
-            .div16{
-                .p-acerca2{
-                    h2{
-                        font-size: $font-size1;
-                        color: $coloroscuro;
-                    }
-                    h3{
-                        text-align: left;
-                        font-size: 2vh;
-                        color: $color5;
-                        padding-bottom: $height3;
-                    }
-                }
-            }
-        }
-    } 
-    // .sec-acerca4{
-    //     @include flexrow;
-    //     .div13{
-    //         width: $width100;
-    //         height: $height50;
-    //         p{
-    //            @include flexcolumn; 
-    //            color: $color1;
-    //            width: $width50;
-    //            height: $heightauto;
-    //            h2{
-    //                font-size: $size1;
-    //            }
-    //         }
-    //     }
-    //     .div14{
-    //         img{
-    //             width: $width50 -30vh;
-    //             height: $height50;
-    //         }
-    //     }
-    // }
-    // .sec-acerca5{
-
-    // }
+    }
+}
