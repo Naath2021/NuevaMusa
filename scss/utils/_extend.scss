@@ -8,16 +8,15 @@
     width: ($size6 -$size2);
     height: $heightauto;
 }
-%h3-comb{
-    font-size: $size8;
-    padding-bottom: $size3;
-    padding-top: $size2;
+%h2-comb{
+    font-size: $size10;
+    padding: $size3 0;
 }
-%h4-comb{
-    padding-top: $height3;
-    font-size: 1.2vw;
+%h3-comb{
+    font-size: $font-size3 +0.4vh;
     width: $width50 +$width10;
     text-align: justify;
+    padding: $size8 0;
 }
 %body{
     @include fonts;

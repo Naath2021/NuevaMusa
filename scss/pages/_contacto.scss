@@ -5,7 +5,7 @@
         margin: $size8 0 5vh 0;
         h1{
             font-weight: $weight;
-            margin-bottom: 5vh;
+            padding-bottom: 5vh;
             text-align: center;
             font-size: $size3;
             color: $color5;
@@ -29,27 +29,25 @@
         @include flexcolumn;
         align-items: center;
         .input-group{
-            width: $width50;
+             width: $width50;
+             margin: $size1 0;
         }
         .input-group-text{
             background-color: $color1;
             color: $color4;
             border: 1px solid $colorclaro;
         }
-        h2{
-            color: $color1;
-            padding: $size3 0 $height10 0;
-        }
-        h3{
-            font-size: $height3;
-            color: $color1;
-            padding: $size3 0 $height10 0;
-        }
         .btn{
             background-color: $color4;
             color: $coloroscuro;
-            margin: $size8 0;
             border: 1px solid $color1;
+            margin-top: $size8;
         }
+    }
+    h3{
+        text-align: center;
+        font-size: $size10;
+        color: $color3;
+        margin: $height10 0;
     }
 }

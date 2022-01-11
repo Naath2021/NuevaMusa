@@ -1,0 +1,71 @@
+#bodycombinaciones{
+    @include fonts;
+    @include flexcolumn;
+    background-color: $colorclaro;
+    .sec-comb1{
+        padding-top: $size4;
+        padding-left: 6vw;
+        width: $width100;
+        height: $height100;
+        background-image: url(/img/Bosques2.JPG);
+        @include background;
+        h1{
+            color: $color3;
+            text-align: right;
+            font-size: $size3;
+            padding-right: $width10;
+        }
+        h2{
+            color: $color3;
+            text-align: right;
+            font-size: $font-size3;
+            font-weight: $weight;
+            padding-right: $width10;
+        }
+    }
+    .sec-comb2{
+        @extend %comb-section;
+        background-color: $color2;
+        img{
+            @extend %img-comb;
+        }
+        h2{
+            @extend %h2-comb;
+            color: $color6;
+        }
+        h3{
+            @extend %h3-comb;
+            color: $color6;
+        }
+    }
+    .sec-comb3{
+        @extend %comb-section;
+        background-color: $color7;
+        img{
+            @extend %img-comb;
+        }
+        h2{
+            @extend %h2-comb;
+            color: $color6;
+        }
+        h3{
+            @extend %h3-comb;
+            color: $color6;
+        }
+    }
+    .sec-comb4{
+        @extend %comb-section;
+        background-color: $color4;
+        img{
+            @extend %img-comb;
+        }
+        h2{
+            @extend %h2-comb;
+            color: $color1
+        }
+        h3{
+            @extend %h3-comb;
+            color: $color1 
+        }
+    }
+}

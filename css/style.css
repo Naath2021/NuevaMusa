@@ -17,29 +17,32 @@
   background-color: #dff0ec; }
   #bodyindex .section1 {
     display: flex;
-    justify-content: left;
-    align-content: center;
-    justify-items: flex-start;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
     text-align: center;
     padding-top: 8vh;
-    width: 100vw;
+    padding-left: 6vw;
+    width: auto;
     height: 100vh;
     background-image: url(/img/bosqueslinea.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; }
-    #bodyindex .section1 .div1 {
-      margin-left: 15vh;
-      padding: 3vh; }
-      #bodyindex .section1 .div1 h1 {
-        font-style: italic;
-        font-size: 13vh;
-        color: #52161b; }
-      #bodyindex .section1 .div1 h3 {
-        font-size: 5vh;
-        color: #7d1b25;
-        font-style: italic; }
+    #bodyindex .section1 .div1 h1 {
+      text-align: right;
+      font-style: italic;
+      font-size: 13vh;
+      color: #dff0ec;
+      text-shadow: 0 0 5px #1f1919; }
+    #bodyindex .section1 .div1 h2 {
+      font-size: 3vh;
+      text-align: center;
+      color: #dff0ec;
+      text-shadow: 0 0 5px #1f1919;
+      font-style: italic;
+      font-weight: 400; }
   #bodyindex .section2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -55,19 +58,18 @@
       height: auto; }
       #bodyindex .section2 .div2 h2 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2vh;
-        color: #7d1b25;
+        font-size: 4vh;
+        color: #831d4a;
         padding-bottom: 8vh;
         padding-top: 4vw; }
         #bodyindex .section2 .div2 h2:hover {
-          font-size: 2vh;
-          transition-duration: 300ms;
-          animation-name: rollout;
-          animation-duration: 300ms; }
+          font-size: 5vh;
+          transition-duration: 300ms; }
       #bodyindex .section2 .div2 h3 {
         font-size: 2vh;
-        color: #7d1b25;
-        padding: 0 5vw; }
+        color: #831d4a;
+        padding: 0 5vw;
+        text-align: justify; }
     #bodyindex .section2 .div3 img {
       width: 50vw;
       height: fit-content; }
@@ -81,18 +83,15 @@
     align-items: center;
     text-align: center;
     width: 100vw;
-    height: 20vh;
-    margin: 10vh 0vh;
+    height: 40vh;
     padding: 10vh 0vh; }
     #bodyindex .section3 h2 {
       font-size: 6vh;
       color: #28486f;
       padding-bottom: 3vh; }
       #bodyindex .section3 h2:hover {
-        font-size: 2vh;
-        transition-duration: 300ms;
-        animation-name: rollout;
-        animation-duration: 300ms; }
+        font-size: 7vh;
+        transition-duration: 300ms; }
     #bodyindex .section3 h4 {
       font-size: 3vh;
       color: #28486f; }
@@ -105,29 +104,24 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    background-color: #fae8f6;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    margin-bottom: 2vh; }
+    background-color: #fae8f6; }
     #bodyindex .section4 .div4, #bodyindex .section4 .div7, #bodyindex .section5 .div4, #bodyindex .section5 .div7 {
       width: 100vw; }
       #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2vh;
-        color: #7d1b25;
+        font-size: 4vh;
+        color: #831d4a;
         padding-bottom: 8vh; }
         #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
-          font-size: 2vh;
-          transition-duration: 300ms;
-          animation-name: rollout;
-          animation-duration: 300ms; }
+          font-size: 5vh;
+          transition-duration: 300ms; }
       #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
         text-align: left;
         font-size: 2vh;
-        color: #7d1b25;
+        color: #831d4a;
         padding: 0 5vw; }
     #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
-      width: 46vw;
+      width: 49.6vw;
       height: auto; }
 
 #bodysobremusa {
@@ -146,17 +140,18 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: #dff0ec; }
+    background-color: #dff0ec;
+    height: 100vh; }
     #bodysobremusa .sec-acerca1 .div8 img {
-      width: 50vw;
-      height: auto; }
+      width: auto;
+      height: 100vh; }
     #bodysobremusa .sec-acerca1 .div9 {
       padding: 0 5vw;
       width: 50vw;
       height: auto; }
       #bodysobremusa .sec-acerca1 .div9 h1 {
         text-align: center;
-        font-size: 2vh;
+        font-size: 5vh;
         color: #28486f;
         padding-bottom: 4vh; }
       #bodysobremusa .sec-acerca1 .div9 h2 {
@@ -166,16 +161,14 @@
         padding-bottom: 3vh; }
   #bodysobremusa .sec-acerca2 {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: center;
     flex-direction: column;
-    width: 100vw;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
     height: 40vh;
     text-align: center;
     align-items: stretch;
-    width: 100vw;
-    height: 40vh;
+    width: auto;
     text-align: center;
     background-image: url(/img/palma.jpg);
     background-size: cover;
@@ -184,67 +177,125 @@
     #bodysobremusa .sec-acerca2 .div10 h2 {
       padding-top: 8vh;
       padding-bottom: 3vh;
-      color: #fad95d;
+      color: #831d4a;
       font-size: 8vh; }
     #bodysobremusa .sec-acerca2 .div10 h3 {
       padding-bottom: 8vh;
-      color: #fad95d;
+      color: #831d4a;
       font-size: 3vh; }
-  #bodysobremusa .sec-acerca3 {
+  #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    border: 1px solid black; }
-    #bodysobremusa .sec-acerca3 .div11 {
-      width: 50vw;
-      height: auto;
-      padding: 0 5vw 0 5vw; }
-      #bodysobremusa .sec-acerca3 .div11 img {
-        width: 40vw;
-        height: 50vh; }
-    #bodysobremusa .sec-acerca3 .div12 {
-      padding: 3vw 5vw 0 5vw;
-      background-color: #98ede3;
-      width: 50vw;
-      height: auto; }
-      #bodysobremusa .sec-acerca3 .div12 h2 {
-        font-size: 1vh;
-        color: #52161b; }
-      #bodysobremusa .sec-acerca3 .div12 h3 {
-        text-align: left;
+    align-items: center;
+    margin: 5vh 0; }
+    #bodysobremusa .sec-acerca3 .div11, #bodysobremusa .sec-acerca3 .div14, #bodysobremusa .sec-acerca3 .div15, #bodysobremusa .sec-acerca4 .div11, #bodysobremusa .sec-acerca4 .div14, #bodysobremusa .sec-acerca4 .div15, #bodysobremusa .sec-acerca5 .div11, #bodysobremusa .sec-acerca5 .div14, #bodysobremusa .sec-acerca5 .div15 {
+      border: 15px solid #fae8f6; }
+      #bodysobremusa .sec-acerca3 .div11 img, #bodysobremusa .sec-acerca3 .div14 img, #bodysobremusa .sec-acerca3 .div15 img, #bodysobremusa .sec-acerca4 .div11 img, #bodysobremusa .sec-acerca4 .div14 img, #bodysobremusa .sec-acerca4 .div15 img, #bodysobremusa .sec-acerca5 .div11 img, #bodysobremusa .sec-acerca5 .div14 img, #bodysobremusa .sec-acerca5 .div15 img {
+        border-radius: 5px;
+        width: 30vw;
+        height: 60vh; }
+    #bodysobremusa .sec-acerca3 .div12, #bodysobremusa .sec-acerca3 .div13, #bodysobremusa .sec-acerca3 .div16, #bodysobremusa .sec-acerca4 .div12, #bodysobremusa .sec-acerca4 .div13, #bodysobremusa .sec-acerca4 .div16, #bodysobremusa .sec-acerca5 .div12, #bodysobremusa .sec-acerca5 .div13, #bodysobremusa .sec-acerca5 .div16 {
+      background-color: #dff0ec;
+      width: 30vw;
+      height: 60vh;
+      border-radius: 5px; }
+      #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
+        padding: 10vh 4vw 3vh 4vw;
+        font-size: 3vh;
+        color: #52161b;
+        text-align: center; }
+      #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
+        text-align: justify;
         font-size: 2vh;
         color: #28486f;
-        padding-bottom: 3vh; }
-    #bodysobremusa .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h2 {
-      font-size: 1vh;
-      color: #52161b; }
-    #bodysobremusa .sec-acerca3 .sec-acerca4 .div13 .p-acerca1 h3 {
-      text-align: left;
+        padding: 3vh 5vh; }
+
+#bodycombinaciones {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #dff0ec; }
+  #bodycombinaciones .sec-comb1 {
+    padding-top: 8vh;
+    padding-left: 6vw;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/Bosques2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    #bodycombinaciones .sec-comb1 h1 {
+      color: #08a77d;
+      text-align: right;
+      font-size: 6vh;
+      padding-right: 10vw; }
+    #bodycombinaciones .sec-comb1 h2 {
+      color: #08a77d;
+      text-align: right;
       font-size: 2vh;
-      color: #28486f;
-      padding-bottom: 3vh; }
-    #bodysobremusa .sec-acerca3 .sec-acerca4 .div14 {
-      width: 40vw;
-      height: 50vh; }
-    #bodysobremusa .sec-acerca3 .sec-acerca5 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-content: center; }
-      #bodysobremusa .sec-acerca3 .sec-acerca5 .div15 img {
-        width: 40vw;
-        height: 50vh; }
-    #bodysobremusa .sec-acerca3 .div16 .p-acerca2 h2 {
-      font-size: 1vh;
-      color: #52161b; }
-    #bodysobremusa .sec-acerca3 .div16 .p-acerca2 h3 {
-      text-align: left;
+      font-weight: 400;
+      padding-right: 10vw; }
+  #bodycombinaciones .sec-comb2 {
+    background-color: #faecba; }
+    #bodycombinaciones .sec-comb2 h2 {
+      color: #a92d2b; }
+    #bodycombinaciones .sec-comb2 h3 {
+      color: #a92d2b; }
+  #bodycombinaciones .sec-comb3 {
+    background-color: #d7ece7; }
+    #bodycombinaciones .sec-comb3 h2 {
+      color: #a92d2b; }
+    #bodycombinaciones .sec-comb3 h3 {
+      color: #a92d2b; }
+  #bodycombinaciones .sec-comb4 {
+    background-color: #fae8f6; }
+    #bodycombinaciones .sec-comb4 h2 {
+      color: #831d4a; }
+    #bodycombinaciones .sec-comb4 h3 {
+      color: #831d4a; }
+
+#bodypedidos {
+  background-color: #fae8f6; }
+  #bodypedidos section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    align-items: center; }
+    #bodypedidos section img {
+      width: 20vw;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #1f1919;
+      margin-top: 6vh; }
+    #bodypedidos section h1 {
+      color: #52161b;
+      font-size: 3vh;
+      padding: 6vh 0; }
+    #bodypedidos section h2 {
+      width: 50vw;
+      height: auto;
       font-size: 2vh;
-      color: #28486f;
-      padding-bottom: 3vh; }
+      text-align: justify;
+      padding-bottom: 4vh; }
+    #bodypedidos section a {
+      border: 1px solid #831d4a;
+      text-decoration: none;
+      list-style-type: none;
+      background-color: #831d4a;
+      color: #dff0ec;
+      padding: 7px;
+      margin-bottom: 15vh; }
+      #bodypedidos section a:hover {
+        background-color: #52161b; }
 
 #bodycontacto {
   background-color: #dff0ec; }
@@ -252,7 +303,7 @@
     margin: 1.5vh 0 5vh 0; }
     #bodycontacto .sec-contacto1 h1 {
       font-weight: 400;
-      margin-bottom: 5vh;
+      padding-bottom: 5vh;
       text-align: center;
       font-size: 6vh;
       color: #28486f; }
@@ -276,23 +327,22 @@
     align-content: center;
     align-items: center; }
     #bodycontacto .sec-contacto2 .input-group {
-      width: 50vw; }
+      width: 50vw;
+      margin: 1vh 0; }
     #bodycontacto .sec-contacto2 .input-group-text {
-      background-color: #7d1b25;
+      background-color: #831d4a;
       color: #fae8f6;
       border: 1px solid #dff0ec; }
-    #bodycontacto .sec-contacto2 h2 {
-      color: #7d1b25;
-      padding: 6vh 0 10vh 0; }
-    #bodycontacto .sec-contacto2 h3 {
-      font-size: 3vh;
-      color: #7d1b25;
-      padding: 6vh 0 10vh 0; }
     #bodycontacto .sec-contacto2 .btn {
       background-color: #fae8f6;
       color: #52161b;
-      margin: 1.5vh 0;
-      border: 1px solid #7d1b25; }
+      border: 1px solid #831d4a;
+      margin-top: 1.5vh; }
+  #bodycontacto h3 {
+    text-align: center;
+    font-size: 4vh;
+    color: #08a77d;
+    margin: 10vh 0; }
 
 #bodyindex header, #bodysobremusa header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
   text-align: center;
@@ -305,7 +355,7 @@
     width: 6vw; }
   #bodyindex header hr.solid, #bodysobremusa header hr.solid, #bodycombinaciones header hr.solid, #bodypedidos header hr.solid, #bodycontacto header hr.solid {
     height: 2px;
-    width: 100vw;
+    width: auto;
     color: #28486f; }
   #bodyindex header .menudesktop ul, #bodysobremusa header .menudesktop ul, #bodycombinaciones header .menudesktop ul, #bodypedidos header .menudesktop ul, #bodycontacto header .menudesktop ul {
     margin: 0;
@@ -316,7 +366,8 @@
       #bodyindex header .menudesktop ul li:hover, #bodysobremusa header .menudesktop ul li:hover, #bodycombinaciones header .menudesktop ul li:hover, #bodypedidos header .menudesktop ul li:hover, #bodycontacto header .menudesktop ul li:hover {
         background-color: rgba(8, 167, 125, 0.3);
         transition-duration: 800ms;
-        padding: 0.5vw; }
+        padding: 0.5vw;
+        border-radius: 5px; }
       #bodyindex header .menudesktop ul li a, #bodysobremusa header .menudesktop ul li a, #bodycombinaciones header .menudesktop ul li a, #bodypedidos header .menudesktop ul li a, #bodycontacto header .menudesktop ul li a {
         text-decoration: none;
         color: #52161b;
@@ -325,8 +376,37 @@
 #bodyindex .menumobile, #bodysobremusa .menumobile, #bodycombinaciones .menumobile, #bodypedidos .menumobile, #bodycontacto .menumobile {
   display: none; }
 
-.container {
-  grid-area: footer; }
+#bodyindex footer, #bodysobremusa footer, #bodycombinaciones footer, #bodypedidos footer, #bodycontacto footer {
+  background-color: #831d4a;
+  color: #dff0ec; }
+  #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
+    fill: #dff0ec; }
+  #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
+    font-size: 2vh; }
+
+#bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; }
+
+#bodycombinaciones .sec-comb2 img, #bodycombinaciones .sec-comb3 img, #bodycombinaciones .sec-comb4 img {
+  width: 16vw;
+  height: auto; }
+
+#bodycombinaciones .sec-comb2 h2, #bodycombinaciones .sec-comb3 h2, #bodycombinaciones .sec-comb4 h2 {
+  font-size: 4vh;
+  padding: 6vh 0; }
+
+#bodycombinaciones .sec-comb2 h3, #bodycombinaciones .sec-comb3 h3, #bodycombinaciones .sec-comb4 h3 {
+  font-size: 2.4vh;
+  width: 60vw;
+  text-align: justify;
+  padding: 1.5vh 0; }
 
 #bodycontacto {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -336,7 +416,7 @@
   justify-content: center;
   align-content: center; }
 
-.btn {
+#bodyindex .-btn, #bodysobremusa .-btn, #bodycombinaciones .-btn, #bodypedidos .-btn, #bodycontacto .-btn {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   flex-direction: column;
@@ -344,21 +424,29 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-bottom: 8vh;
-  width: 100vw; }
-  .btn h4 {
+  margin: 10vh 0;
+  padding: 3vh 0;
+  width: 100vw;
+  height: auto; }
+  #bodyindex .-btn h4, #bodysobremusa .-btn h4, #bodycombinaciones .-btn h4, #bodypedidos .-btn h4, #bodycontacto .-btn h4 {
     text-align: center;
     font-size: 3vh;
     color: #08a77d;
-    padding: 4vh 6vw;
-    width: 80vw;
-    height: auto; }
-  .btn a {
+    padding: 4vh 0; }
+  #bodyindex .-btn a, #bodysobremusa .-btn a, #bodycombinaciones .-btn a, #bodypedidos .-btn a, #bodycontacto .-btn a {
     text-decoration: none;
     color: #dff0ec;
-    font-size: 1vh;
-    background-color: #7d1b25;
-    padding: 1vh 1vw; }
-    .btn a:hover {
+    font-size: 2vh;
+    background-color: #831d4a;
+    padding: 1vh 1vw;
+    border-radius: 5px; }
+    #bodyindex .-btn a:hover, #bodysobremusa .-btn a:hover, #bodycombinaciones .-btn a:hover, #bodypedidos .-btn a:hover, #bodycontacto .-btn a:hover {
       color: #dff0ec;
       background-color: #52161b; }
+
+#bodyindex .btn-to-top, #bodysobremusa .btn-to-top, #bodycombinaciones .btn-to-top, #bodypedidos .btn-to-top, #bodycontacto .btn-to-top {
+  width: 0vw;
+  height: auto;
+  border: 0px;
+  align-self: center;
+  margin-bottom: 3vh; }
