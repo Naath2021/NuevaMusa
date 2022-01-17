@@ -5,7 +5,6 @@
     justify-content: center;
     align-content: center;
 }
-
 @mixin flexcolumn {
     display: flex;
     flex-direction: column;
@@ -19,19 +18,14 @@
     justify-content: center;
     align-content: center;
 }
-
-@mixin background {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 @mixin fonts {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-@mixin textdeco {
-    text-decoration: none;
-    list-style-type: none;
+@mixin indextitle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
 }
-

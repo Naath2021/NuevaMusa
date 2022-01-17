@@ -18,56 +18,53 @@
   <header>
     <!-- NAV MODO DESKTOP -->
 
-        <nav class="menudesktop">
-          <a href="index.html"><img src="/img/logo.png" alt="logotipo-musa"></a>
-                <hr class="solid">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobremusa.html">Sobre Musa</a></li>
-                <li><a href="combinaciones.html">Combinaciones</a></li>
-                <li><a href="pedidos.html">Pedidos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav class="menudesktop">
+      <a href="index.html"><img src="/img/logo.png" alt="logotipo-musa"></a>
+      <hr class="solid">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobremusa.html">Sobre Musa</a></li>
+        <li><a href="combinaciones.html">Combinaciones</a></li>
+        <li><a href="pedidos.html">Pedidos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
 
       <!-- NAV MODO MOBILE -->
-    <nav class="menumobile navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span> </button>
-                
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <nav class="menumobile navbar navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
 
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="acerca.html">Sobre Musa</a></li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="pedidos.html">Pedidos</a></li>
-                            
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacto</a></li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="combinaciones.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Combinaciones</a>
-                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="/combinaciones.html">Cayena</a></li>
-                        <li><a class="dropdown-item" href="/combinaciones.html">Moya</a></li>
-                        <li><a class="dropdown-item" href="/combinaciones.html">Bayana</a></li>
-                      </ul>
-              </li>
-            </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+            <li class="nav-item">
+               <a class="nav-link" href="sobremusa.html">Sobre Musa</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="pedidos.html">Pedidos</a></li>              
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="combinaciones.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Combinaciones</a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="/combinaciones.html">Cayena</a></li>
+                  <li><a class="dropdown-item" href="/combinaciones.html">Moya</a></li>
+                  <li><a class="dropdown-item" href="/combinaciones.html">Bayana</a></li>
+                </ul>
+            </li>
+          </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -76,7 +73,7 @@
   </header>
 
             <!-- INICIO DEL BODY -->
-
+  <main>
     <section class="sec-contacto1">
       <h1>Contactános</h1>
       <h2>+54 9 11 7363-5670 / +54 9 11 6461-7774</h2>
@@ -98,15 +95,14 @@
         <span class="input-group-text" id="basic-addon1">E-mail</span>
         <input type="email" class="form-control" placeholder="Correo electrónico" aria-label="Username" aria-describedby="basic-addon1">
       </div>
-  <div class="input-group">
-    <span class="input-group-text">Mensaje</span>
-    <textarea class="form-control" placeholder="No te preocupés por caracteres ;)" aria-label="With textarea"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="input-group">
+        <span class="input-group-text">Mensaje</span>
+        <textarea class="form-control" placeholder="No te preocupés por caracteres ;)" aria-label="With textarea"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </section>
-
     <h3>¡Muchas gracias por tu mensaje!</h3>
-
+  </main>
 <!-- FOOTER -->
 
 <footer class="d-flex flex-wrap justify-content-around align-items-center py-5 my-0 border-top">

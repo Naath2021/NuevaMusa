@@ -7,11 +7,11 @@
         @include flexrow;
         align-items: center;
         background-color: $colorclaro;
-        height: $height100;
+        height: $heightauto;
         .div8{
             img{
-                width: auto;
-                height: $height100;
+                width: $width50;
+                height: $heightauto;
             }
         }
         .div9{
@@ -20,13 +20,13 @@
             height: $heightauto;
             h1{
                 text-align: center;
-                font-size: $size9;
+                font-size: $font-size2;
                 color: $color5;
                 padding-bottom: $height3+$size1;
             }
             h2{
                 text-align: left;
-                font-size: $font-size3;
+                font-size: $font-size4;
                 color: $color5;
                 padding-bottom: $height3;
             }
@@ -38,20 +38,21 @@
         text-align: center;
         align-items: stretch;
         width: auto;
+        height: $heightauto;
         text-align: center;
         background-image: url(/img/palma.jpg);
-        @include background;
+        @extend %background;
         .div10{
             h2{
                 padding-top: $size4;
                 padding-bottom: $height3;
                 color: $color1;
-                font-size: $size4;
+                font-size: $size12;
             }
             h3{
                 padding-bottom: $size4;
                 color: $color1;
-                font-size: $height3;
+                font-size: $font-size2;
             }
         }
     }
@@ -59,6 +60,7 @@
         @include flexrow;
         align-items: center;
         margin: $size9 0;
+        height: $heightauto;
         .div11, .div14, .div15{
             border: 15px solid $color4;
             img{
@@ -74,13 +76,13 @@
             border-radius: 5px;
             h2{
                 padding: $height10 $size2 $height3 $size2;
-                font-size: $height3;
+                font-size: $font-size2;
                 color: $coloroscuro;
                 text-align: center;
             }
             h3{
                 text-align: justify;
-                font-size: $font-size3;
+                font-size: $font-size4;
                 color: $color5;
                 padding: $height3 5vh;
             }

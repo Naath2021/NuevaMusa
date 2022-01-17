@@ -4,7 +4,6 @@
         width: $width100;
         height: $heightauto;
         padding-bottom: 5vh;
-        grid-area: header;
         a{
             img{
                 margin-top: $height3;
@@ -32,8 +31,24 @@
                     a{
                         text-decoration: none;
                         color: $coloroscuro;
-                        font-size: $font-size3;
+                        font-size: $font-size4;
                     }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        header{
+            height: $height10 +8vh;
+            .menudesktop{
+                img{
+                    width: $width10;
+                }
+                hr{
+                    display: none;
+                }
+                ul{
+                    display: none;
                 }
             }
         }

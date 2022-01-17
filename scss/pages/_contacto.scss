@@ -7,20 +7,20 @@
             font-weight: $weight;
             padding-bottom: 5vh;
             text-align: center;
-            font-size: $size3;
+            font-size: $size12;
             color: $color5;
         }
         h2{
             font-weight: $weight;
             padding: 0.5 0 0.5 0 ;
-            font-size: $font-size3;
+            font-size: $size7;
             color: $coloroscuro;
             text-align: center;
         }
         a{
             font-weight: $weight;
             padding: 0.5 0 0.5 0 ;
-            font-size: $font-size3;
+            font-size: $font-size4;
             color: $coloroscuro;
             text-align: center;
         }
@@ -36,6 +36,13 @@
             background-color: $color1;
             color: $color4;
             border: 1px solid $colorclaro;
+            font-size: $font-size4;
+        }
+        input{
+            font-size: $font-size4;
+        }
+        textarea{
+            font-size: $font-size4;
         }
         .btn{
             background-color: $color4;
@@ -46,7 +53,7 @@
     }
     h3{
         text-align: center;
-        font-size: $size10;
+        font-size: $size12;
         color: $color3;
         margin: $height10 0;
     }

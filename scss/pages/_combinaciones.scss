@@ -8,17 +8,17 @@
         width: $width100;
         height: $height100;
         background-image: url(/img/Bosques2.JPG);
-        @include background;
+        @extend %background;
         h1{
             color: $color3;
             text-align: right;
-            font-size: $size3;
+            font-size: $size2;
             padding-right: $width10;
         }
         h2{
             color: $color3;
             text-align: right;
-            font-size: $font-size3;
+            font-size: $size7;
             font-weight: $weight;
             padding-right: $width10;
         }

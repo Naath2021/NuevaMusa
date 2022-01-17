@@ -3,31 +3,26 @@
     @include flexcolumn;
     background-color: $colorclaro;
     .section1{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-content: flex-start;
-        align-items: center;
-        text-align: center;
+        @include indextitle;
         padding-top: $size4;
         padding-left: 6vw;
         width: auto;
         height: $height100;
         background-image: url(/img/bosqueslinea.JPG);
-        @include background;
+        @extend %background;
         .div1{
             h1{
                 text-align: right;
                 font-style: italic;
-                font-size: 13vh;
+                font-size: $size11;
                 color: $colorclaro;
-                text-shadow: 0 0 5px rgb(31, 25, 25);
+                text-shadow: $text-shadow;
             }
             h2{
-                font-size: $height3;
+                font-size: $font-size2;
                 text-align: center;
                 color: $colorclaro;
-                text-shadow: 0 0 5px rgb(31, 25, 25);
+                text-shadow: $text-shadow;
                 font-style: italic;
                 font-weight: $weight;
             }
@@ -44,17 +39,17 @@
             height: $heightauto;
             h2{
                 @include fonts;
-                font-size: $size10;
+                font-size: $font-size2;
                 color: $color1;
                 padding-bottom: $size4;
                 padding-top: $size2;
                 &:hover{
-                    font-size: $size9;
+                    font-size: 2.5vw;
                     transition-duration: 300ms;
                 }
             }
             h3{
-                font-size: $font-size3;
+                font-size: $font-size4;
                 color: $color1;
                 padding: 0 5vw;
                 text-align: justify;
@@ -76,16 +71,16 @@
         height: 40vh;
         padding: $height10 0vh;
         h2{
-            font-size: $size3;
+            font-size: $size2;
             color: $color5;
             padding-bottom: $height3;
             &:hover{
-                font-size: 7vh;
+                font-size: 5vw;
                 transition-duration: 300ms;
             }
         }
         h4{
-            font-size: $height3;
+            font-size: $font-size2;
             color: $color5;
         }
     }
@@ -99,17 +94,17 @@
             width: $width100;
             h2{
                 @include fonts;
-                font-size: $size10;
+                font-size: $font-size2;
                 color: $color1;
                 padding-bottom: $size4;
                 &:hover{
-                    font-size: $size9;
+                    font-size: $size12;
                     transition-duration: 300ms;
                 }
             }
             h3{
                 text-align: left;
-                font-size: $font-size3;
+                font-size: $font-size4;
                 color: $color1;
                 padding: 0 5vw;
             }
@@ -118,6 +113,59 @@
             img{
                 width: 49.6vw;
                 height: $heightauto;
+            }
+        }
+    }
+    @media screen and (max-width: 768px){
+        .section1{
+            @include flexrow;
+            .div1{
+                h1{ 
+                    font-size: $height10;
+                    text-align: left;
+                    text-shadow: $text-shadow;
+                }
+                h2{
+                    font-size: $size10;
+                    text-align: center;
+                    text-shadow: $text-shadow;
+                }
+            }
+        }
+        .section2, .section3, .section4, .section5{
+            @include flexcolumn;
+            width: $width100;
+            height: $heightauto;
+            .div2, .div4, .div7{
+                width: $width80;
+                height: $heightauto;
+                h2{
+                    font-size: $height3;
+                    padding: $height10  0 $height3 0;
+                    &:hover{
+                        font-size: 3.5vh;
+                        transition-duration: 300ms;
+                    }
+                }
+                h3{
+                    font-size: $font-size3;
+                    text-align: justify;
+                    padding-bottom: $size4;
+                }
+            }
+            .div3{
+                margin-top: $height3;
+                img{
+                    width: $width80;
+                    height: $heightauto;
+                }
+            } 
+            .div5, .div6{
+                margin: $height3 0;
+                img{
+                    width: $width80;
+                    height: $heightauto;
+                }
             }
         }
     }

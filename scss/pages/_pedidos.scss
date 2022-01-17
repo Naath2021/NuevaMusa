@@ -13,19 +13,19 @@
         }
         h1{
             color: $coloroscuro;
-            font-size: $height3;
+            font-size: $font-size2;
             padding: $size3 0;
         }
         h2{
             width: $width50;
             height: $heightauto;
-            font-size: $font-size3;
+            font-size: $size7;
             text-align: justify;
             padding-bottom: $size10;
         }
         a{
             border: 1px solid $color1;
-            @include textdeco;
+            @extend %textdeco;
             background-color: $color1;
             color: $colorclaro;
             padding: 7px;
