@@ -1,152 +1,152 @@
-#bodysobremusa{
+#bodysobremusa {
+  @include fonts;
+  @include flexcolumn;
+  background-color: $color4;
+  .sec-acerca1 {
+    @include fonts;
+    @include flexrow;
+    align-items: center;
+    background-color: $colorclaro;
+    height: $heightauto;
+    .div8 {
+      img {
+        width: $width50;
+        height: $heightauto;
+      }
+    }
+    .div9 {
+      padding: 0 5vw;
+      width: $width50;
+      height: $heightauto;
+      h1 {
+        text-align: center;
+        font-size: $font-size2;
+        color: $color5;
+        padding-bottom: $height3 + $size1;
+      }
+      h2 {
+        text-align: left;
+        font-size: $font-size4;
+        color: $color5;
+        padding-bottom: $height3;
+      }
+    }
+  }
+  .sec-acerca2 {
+    @include flexcolumn;
+    height: 40vh;
+    text-align: center;
+    align-items: stretch;
+    width: auto;
+    height: $heightauto;
+    text-align: center;
+    background-image: url(/img/palma.jpg);
+    @extend %background;
+    .div10 {
+      h2 {
+        padding-top: $size4;
+        padding-bottom: $height3;
+        color: $color1;
+        font-size: $size12;
+      }
+      h3 {
+        padding-bottom: $size4;
+        color: $color1;
+        font-size: $font-size2;
+      }
+    }
+  }
+  .sec-acerca3, .sec-acerca4, .sec-acerca5 {
+    @include flexrow;
+    align-items: center;
+    margin: 5vh 0;
+    height: $heightauto;
+    .div11, .div14, .div15 {
+      border: 15px solid $color4;
+      img {
+        border-radius: 5px;
+        width: 30vw;
+        height: 60vh;
+      }
+    }
+    .div12, .div13, .div16 {
+      background-color: $colorclaro;
+      width: 30vw;
+      height: 60vh;
+      border-radius: 5px;
+      h2 {
+        padding: $height10 $size2 $height3 $size2;
+        font-size: $font-size2;
+        color: $coloroscuro;
+        text-align: center;
+      }
+      h3 {
+        text-align: justify;
+        font-size: $font-size4;
+        color: $color5;
+        padding: $height3 5vh;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
     @include fonts;
     @include flexcolumn;
-    background-color: $color4;
-    .sec-acerca1{
-        @include fonts;
-        @include flexrow;
-        align-items: center;
-        background-color: $colorclaro;
+    .sec-acerca1 {
+      @include flexcolumn;
+      align-items: center;
+      justify-items: center;
+      .div8 {
+        img {
+          width: $width100;
+          height: $heightauto;
+        }
+      }
+      .div9 {
+        width: $width100;
         height: $heightauto;
-        .div8{
-            img{
-                width: $width50;
-                height: $heightauto;
-            }
+        padding-top: $size10;
+        h1 {
+          padding-top: $size4;
+          font-size: $size11;
         }
-        .div9{
-            padding: 0 5vw;
-            width: $width50;
-            height: $heightauto;
-            h1{
-                text-align: center;
-                font-size: $font-size2;
-                color: $color5;
-                padding-bottom: $height3+$size1;
-            }
-            h2{
-                text-align: left;
-                font-size: $font-size4;
-                color: $color5;
-                padding-bottom: $height3;
-            }
+        h2 {
+          padding: 0 $size12 $size10 $size12;
+          font-size: $size12;
+          text-align: justify;
         }
+      }
     }
-    .sec-acerca2{
-        @include flexcolumn;
-        height: 40vh;
-        text-align: center;
-        align-items: stretch;
-        width: auto;
+    .sec-acerca2 {
+      @include flexcolumn;
+      .div10 {
+        h2 {
+          font-size: 8vw;
+        }
+        h3 {
+          font-size: $size2;
+        }
+      }
+    }
+    .sec-acerca3, .sec-acerca4, .sec-acerca5 {
+      @include flexcolumn;
+      .div11, .div14, .div15 {
+        img {
+          width: $width80;
+          height: $heightauto;
+        }
+      }
+      .div12, .div13, .div16 {
+        width: $width80;
         height: $heightauto;
-        text-align: center;
-        background-image: url(/img/palma.jpg);
-        @extend %background;
-        .div10{
-            h2{
-                padding-top: $size4;
-                padding-bottom: $height3;
-                color: $color1;
-                font-size: $size12;
-            }
-            h3{
-                padding-bottom: $size4;
-                color: $color1;
-                font-size: $font-size2;
-            }
+        h2 {
+          font-size: 5vw;
+          text-align: center;
         }
+        h3 {
+          font-size: $size12;
+          text-align: center;
+        }
+      }
     }
-    .sec-acerca3, .sec-acerca4, .sec-acerca5{
-        @include flexrow;
-        align-items: center;
-        margin: 5vh 0;
-        height: $heightauto;
-        .div11, .div14, .div15{
-            border: 15px solid $color4;
-            img{
-                border-radius: 5px;
-                width: 30vw;
-                height: 60vh;
-            }
-        }
-        .div12, .div13, .div16{
-            background-color: $colorclaro;
-            width: 30vw;
-            height: 60vh;
-            border-radius: 5px;
-            h2{
-                padding: $height10 $size2 $height3 $size2;
-                font-size: $font-size2;
-                color: $coloroscuro;
-                text-align: center;
-            }
-            h3{
-                text-align: justify;
-                font-size: $font-size4;
-                color: $color5;
-                padding: $height3 5vh;
-            }
-        }
-    }
-    @media screen and (max-width: 768px){
-        @include fonts;
-        @include flexcolumn;
-        .sec-acerca1{
-            @include flexcolumn;
-            align-items: center;
-            justify-items: center;
-            .div8{
-                img{
-                    width: $width100;
-                    height: $heightauto;
-                }
-            }
-            .div9{
-                width: $width100;
-                height: $heightauto;
-                padding-top: $size10;
-                h1{
-                    padding-top: $size4;
-                    font-size: $size11;
-                }
-                h2{
-                    padding: 0 $size12 $size10 $size12;
-                    font-size: $size12;
-                    text-align: justify;
-                }
-            }
-        }
-        .sec-acerca2{
-            @include flexcolumn;
-            .div10{
-                h2{
-                    font-size: 8vw;
-                }
-                h3{
-                    font-size: $size2;
-                }
-            }
-        }
-        .sec-acerca3, .sec-acerca4, .sec-acerca5{
-            @include flexcolumn;
-            .div11, .div14, .div15{
-                img{
-                    width: $width80;
-                    height: $heightauto;
-                }
-            }
-            .div12, .div13, .div16{
-                width: $width80;
-                height: $heightauto;
-                h2{
-                    font-size: 5vh;
-                    text-align: center;
-                }
-                h3{
-                    font-size: $size12;
-                    text-align: center;
-                }
-            }
-        }
-    }
+  }
 }

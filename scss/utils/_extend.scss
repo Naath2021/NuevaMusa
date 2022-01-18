@@ -1,33 +1,34 @@
-%comb-section{
-    @include flexcolumn;
-    align-items: center;
-    height: $height100;
-    width: $width100;
+%comb-section {
+  @include flexcolumn;
+  align-items: center;
+  height: $height100;
+  width: $width100;
 }
-%img-comb{
-    width: (20vw -$size2);
-    height: $heightauto;
+%img-comb {
+  width: (20vw -$size2);
+  height: $heightauto;
 }
-%h2-comb{
-    font-size: $size12;
-    padding: $size3 0;
+%h2-comb {
+  font-size: $size12;
+  padding: $size3 0;
 }
-%h3-comb{
-    font-size: $size7;
-    width: $width50 +$width10;
-    text-align: justify;
-    padding: $size8 0;
+%h3-comb {
+  font-size: $size7;
+  width: $width50 + $width10;
+  text-align: justify;
+  padding: $size8 0;
 }
-%body{
-    @include fonts;
-    @include flexcolumn;
+%body {
+  @include fonts;
+  @include flexcolumn;
 }
 %background {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 %textdeco {
-    text-decoration: none;
-    list-style-type: none;
+  text-decoration: none;
+  list-style-type: none;
 }
