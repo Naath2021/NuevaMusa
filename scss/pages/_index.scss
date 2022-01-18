@@ -57,7 +57,7 @@
         }
         .div3{
             img{
-                width: 50vw;
+                width: $width50;
                 height: fit-content;
             }
         }
@@ -118,21 +118,21 @@
     }
     @media screen and (max-width: 768px){
         .section1{
-            @include flexrow;
+            @include indextitle;
             .div1{
                 h1{ 
-                    font-size: $height10;
+                    font-size: $width10;
                     text-align: left;
                     text-shadow: $text-shadow;
                 }
                 h2{
-                    font-size: $size10;
+                    font-size: $size2;
                     text-align: center;
                     text-shadow: $text-shadow;
                 }
             }
         }
-        .section2, .section3, .section4, .section5{
+        .section2, .section4, .section5{
             @include flexcolumn;
             width: $width100;
             height: $heightauto;
@@ -140,7 +140,7 @@
                 width: $width80;
                 height: $heightauto;
                 h2{
-                    font-size: $height3;
+                    font-size: $size11;
                     padding: $height10  0 $height3 0;
                     &:hover{
                         font-size: 3.5vh;
@@ -148,7 +148,7 @@
                     }
                 }
                 h3{
-                    font-size: $font-size3;
+                    font-size: $size12;
                     text-align: justify;
                     padding-bottom: $size4;
                 }
@@ -166,6 +166,14 @@
                     width: $width80;
                     height: $heightauto;
                 }
+            }
+        }
+        .section3{
+            h2{
+                font-size: $size11;
+            }
+            h3{
+                font-size: $size2;
             }
         }
     }

@@ -23,9 +23,5 @@
 }
 @mixin indextitle{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
-    text-align: center;
+    flex-wrap: nowrap;
 }

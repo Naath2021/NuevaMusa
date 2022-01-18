@@ -17,11 +17,7 @@
   background-color: #dff0ec; }
   #bodyindex .section1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
-    text-align: center;
+    flex-wrap: nowrap;
     padding-top: 8vh;
     padding-left: 6vw;
     width: auto;
@@ -123,19 +119,16 @@
   @media screen and (max-width: 768px) {
     #bodyindex .section1 {
       display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-content: center; }
+      flex-wrap: nowrap; }
       #bodyindex .section1 .div1 h1 {
-        font-size: 10vh;
+        font-size: 10vw;
         text-align: left;
         text-shadow: 0 0 5px #1f1919; }
       #bodyindex .section1 .div1 h2 {
-        font-size: 4vh;
+        font-size: 4vw;
         text-align: center;
         text-shadow: 0 0 5px #1f1919; }
-    #bodyindex .section2, #bodyindex .section3, #bodyindex .section4, #bodyindex .section5 {
+    #bodyindex .section2, #bodyindex .section4, #bodyindex .section5 {
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -143,29 +136,33 @@
       align-content: center;
       width: 100vw;
       height: auto; }
-      #bodyindex .section2 .div2, #bodyindex .section2 .div4, #bodyindex .section2 .div7, #bodyindex .section3 .div2, #bodyindex .section3 .div4, #bodyindex .section3 .div7, #bodyindex .section4 .div2, #bodyindex .section4 .div4, #bodyindex .section4 .div7, #bodyindex .section5 .div2, #bodyindex .section5 .div4, #bodyindex .section5 .div7 {
+      #bodyindex .section2 .div2, #bodyindex .section2 .div4, #bodyindex .section2 .div7, #bodyindex .section4 .div2, #bodyindex .section4 .div4, #bodyindex .section4 .div7, #bodyindex .section5 .div2, #bodyindex .section5 .div4, #bodyindex .section5 .div7 {
         width: 80vw;
         height: auto; }
-        #bodyindex .section2 .div2 h2, #bodyindex .section2 .div4 h2, #bodyindex .section2 .div7 h2, #bodyindex .section3 .div2 h2, #bodyindex .section3 .div4 h2, #bodyindex .section3 .div7 h2, #bodyindex .section4 .div2 h2, #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div2 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
-          font-size: 3vh;
+        #bodyindex .section2 .div2 h2, #bodyindex .section2 .div4 h2, #bodyindex .section2 .div7 h2, #bodyindex .section4 .div2 h2, #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div2 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
+          font-size: 6vw;
           padding: 10vh 0 3vh 0; }
-          #bodyindex .section2 .div2 h2:hover, #bodyindex .section2 .div4 h2:hover, #bodyindex .section2 .div7 h2:hover, #bodyindex .section3 .div2 h2:hover, #bodyindex .section3 .div4 h2:hover, #bodyindex .section3 .div7 h2:hover, #bodyindex .section4 .div2 h2:hover, #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div2 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
+          #bodyindex .section2 .div2 h2:hover, #bodyindex .section2 .div4 h2:hover, #bodyindex .section2 .div7 h2:hover, #bodyindex .section4 .div2 h2:hover, #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div2 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
             font-size: 3.5vh;
             transition-duration: 300ms; }
-        #bodyindex .section2 .div2 h3, #bodyindex .section2 .div4 h3, #bodyindex .section2 .div7 h3, #bodyindex .section3 .div2 h3, #bodyindex .section3 .div4 h3, #bodyindex .section3 .div7 h3, #bodyindex .section4 .div2 h3, #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div2 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
-          font-size: 2vh;
+        #bodyindex .section2 .div2 h3, #bodyindex .section2 .div4 h3, #bodyindex .section2 .div7 h3, #bodyindex .section4 .div2 h3, #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div2 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
+          font-size: 3vw;
           text-align: justify;
           padding-bottom: 8vh; }
-      #bodyindex .section2 .div3, #bodyindex .section3 .div3, #bodyindex .section4 .div3, #bodyindex .section5 .div3 {
+      #bodyindex .section2 .div3, #bodyindex .section4 .div3, #bodyindex .section5 .div3 {
         margin-top: 3vh; }
-        #bodyindex .section2 .div3 img, #bodyindex .section3 .div3 img, #bodyindex .section4 .div3 img, #bodyindex .section5 .div3 img {
+        #bodyindex .section2 .div3 img, #bodyindex .section4 .div3 img, #bodyindex .section5 .div3 img {
           width: 80vw;
           height: auto; }
-      #bodyindex .section2 .div5, #bodyindex .section2 .div6, #bodyindex .section3 .div5, #bodyindex .section3 .div6, #bodyindex .section4 .div5, #bodyindex .section4 .div6, #bodyindex .section5 .div5, #bodyindex .section5 .div6 {
+      #bodyindex .section2 .div5, #bodyindex .section2 .div6, #bodyindex .section4 .div5, #bodyindex .section4 .div6, #bodyindex .section5 .div5, #bodyindex .section5 .div6 {
         margin: 3vh 0; }
-        #bodyindex .section2 .div5 img, #bodyindex .section2 .div6 img, #bodyindex .section3 .div5 img, #bodyindex .section3 .div6 img, #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
+        #bodyindex .section2 .div5 img, #bodyindex .section2 .div6 img, #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
           width: 80vw;
-          height: auto; } }
+          height: auto; }
+    #bodyindex .section3 h2 {
+      font-size: 6vw; }
+    #bodyindex .section3 h3 {
+      font-size: 4vw; } }
 
 #bodysobremusa {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -254,6 +251,64 @@
         font-size: 1vw;
         color: #28486f;
         padding: 3vh 5vh; }
+  @media screen and (max-width: 768px) {
+    #bodysobremusa {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center; }
+      #bodysobremusa .sec-acerca1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center; }
+        #bodysobremusa .sec-acerca1 .div8 img {
+          width: 100vw;
+          height: auto; }
+        #bodysobremusa .sec-acerca1 .div9 {
+          width: 100vw;
+          height: auto;
+          padding-top: 4vh; }
+          #bodysobremusa .sec-acerca1 .div9 h1 {
+            padding-top: 8vh;
+            font-size: 8vw; }
+          #bodysobremusa .sec-acerca1 .div9 h2 {
+            padding: 0 3vw 4vh 3vw;
+            font-size: 4vw;
+            text-align: justify; }
+      #bodysobremusa .sec-acerca2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center; }
+        #bodysobremusa .sec-acerca2 .div10 h2 {
+          font-size: 8vw; }
+        #bodysobremusa .sec-acerca2 .div10 h3 {
+          font-size: 4vw; }
+      #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center; }
+        #bodysobremusa .sec-acerca3 .div11 img, #bodysobremusa .sec-acerca3 .div14 img, #bodysobremusa .sec-acerca3 .div15 img, #bodysobremusa .sec-acerca4 .div11 img, #bodysobremusa .sec-acerca4 .div14 img, #bodysobremusa .sec-acerca4 .div15 img, #bodysobremusa .sec-acerca5 .div11 img, #bodysobremusa .sec-acerca5 .div14 img, #bodysobremusa .sec-acerca5 .div15 img {
+          width: 80vw;
+          height: auto; }
+        #bodysobremusa .sec-acerca3 .div12, #bodysobremusa .sec-acerca3 .div13, #bodysobremusa .sec-acerca3 .div16, #bodysobremusa .sec-acerca4 .div12, #bodysobremusa .sec-acerca4 .div13, #bodysobremusa .sec-acerca4 .div16, #bodysobremusa .sec-acerca5 .div12, #bodysobremusa .sec-acerca5 .div13, #bodysobremusa .sec-acerca5 .div16 {
+          width: 80vw;
+          height: auto; }
+          #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
+            font-size: 6vw;
+            text-align: center; }
+          #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
+            font-size: 4vw;
+            text-align: center; } }
 
 #bodycombinaciones {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -382,7 +437,7 @@
       margin-top: 1.5vh; }
   #bodycontacto h3 {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #08a77d;
     margin: 10vh 0; }
 
@@ -416,7 +471,7 @@
 
 @media screen and (max-width: 768px) {
   #bodyindex header, #bodysobremusa header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
-    height: 18vh; }
+    height: 15vh; }
     #bodyindex header .menudesktop img, #bodysobremusa header .menudesktop img, #bodycombinaciones header .menudesktop img, #bodypedidos header .menudesktop img, #bodycontacto header .menudesktop img {
       width: 10vw; }
     #bodyindex header .menudesktop hr, #bodysobremusa header .menudesktop hr, #bodycombinaciones header .menudesktop hr, #bodypedidos header .menudesktop hr, #bodycontacto header .menudesktop hr {
@@ -458,7 +513,7 @@
   #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
     fill: #dff0ec; }
   #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
-    font-size: 3vh; }
+    font-size: 6vw; }
 
 #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
   display: flex;
@@ -517,24 +572,23 @@
     text-align: center;
     font-size: 2vw;
     color: #08a77d;
-    padding: 4vh 0; }
+    padding: 4vh 2vw; }
   #bodyindex .-btn a, #bodysobremusa .-btn a, #bodycombinaciones .-btn a, #bodypedidos .-btn a, #bodycontacto .-btn a {
     text-decoration: none;
     color: #dff0ec;
     font-size: 1vw;
     background-color: #831d4a;
-    padding: 1vh 1vw;
+    padding: 1vh 2vw;
     border-radius: 5px; }
     #bodyindex .-btn a:hover, #bodysobremusa .-btn a:hover, #bodycombinaciones .-btn a:hover, #bodypedidos .-btn a:hover, #bodycontacto .-btn a:hover {
       color: #dff0ec;
       background-color: #52161b; }
 
 #bodyindex .btn-to-top, #bodysobremusa .btn-to-top, #bodycombinaciones .btn-to-top, #bodypedidos .btn-to-top, #bodycontacto .btn-to-top {
-  width: 0vw;
-  height: auto;
   border: 0px;
+  margin-bottom: 3vh;
   align-self: center;
-  margin-bottom: 3vh; }
+  margin-left: 49%; }
 
 @media screen and (max-width: 768px) {
   #bodyindex .-btn h4, #bodysobremusa .-btn h4, #bodycombinaciones .-btn h4, #bodypedidos .-btn h4, #bodycontacto .-btn h4 {

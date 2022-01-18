@@ -11,14 +11,14 @@
             text-align: center;
             font-size: $font-size2;
             color: $color3;
-            padding: $size10 0;
+            padding: $size10 $font-size2;
             }
         a{
             text-decoration: none;
             color: $colorclaro;
             font-size: $font-size4;
             background-color: $color1;
-            padding: 1vh 1vw;
+            padding: 1vh 2vw;
             border-radius: 5px;
             &:hover{
                 color: $colorclaro; 
@@ -27,11 +27,10 @@
         }
     }
     .btn-to-top{
-        width: 0vw;
-        height: auto;
         border: 0px;
-        align-self: center;
         margin-bottom: $height3;
+        align-self: center;
+        margin-left: 49%;
     }
     @media screen and (max-width: 768px){
         .-btn{
