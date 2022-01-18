@@ -1,52 +1,52 @@
-#bodypedidos{
-    background-color: $color4;
-    section{
-        @include flexcolumn;
-        align-content: center;
-        align-items: center;
-        img{
-            width: $width10 *2;
-            height: $heightauto;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgb(31, 25, 25);
-        }
-        h1{
-            color: $coloroscuro;
-            font-size: $font-size2;
-            padding: $size3 0;
-        }
-        h2{
-            width: $width50;
-            height: $heightauto;
-            font-size: $size7;
-            text-align: justify;
-            padding-bottom: $size10;
-        }
-        a{
-            border: 1px solid $color1;
-            @extend %textdeco;
-            background-color: $color1;
-            color: $colorclaro;
-            padding: 7px;
-            margin-bottom: 15vh;
-            &:hover{
-                background-color: $coloroscuro;
-            }
-        }
+#bodypedidos {
+  background-color: $color4;
+  section {
+    @include flexcolumn;
+    align-content: center;
+    align-items: center;
+    img {
+      width: $width10 * 2;
+      height: $heightauto;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgb(31, 25, 25);
     }
-    @media screen and (max-width: 768px){
-        section{
-            img{
-                width: 30vw;
-                height: $heightauto;
-            }
-            h1{
-                font-size: $size2;
-            }
-            h2{
-                font-size: $size12;
-                width: $width80 +$width10;
-            }
-        }
+    h1 {
+      color: $coloroscuro;
+      font-size: $font-size2;
+      padding: $size3 0;
     }
+    h2 {
+      width: $width50;
+      height: $heightauto;
+      font-size: $size7;
+      text-align: justify;
+      padding-bottom: $size10;
+    }
+    a {
+      border: 1px solid $color1;
+      @extend %textdeco;
+      background-color: $color1;
+      color: $colorclaro;
+      padding: 7px;
+      margin-bottom: 15vh;
+      &:hover {
+        background-color: $coloroscuro;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section {
+      img {
+        width: 30vw;
+        height: $heightauto;
+      }
+      h1 {
+        font-size: $size2;
+      }
+      h2 {
+        font-size: $size12;
+        width: $width80 + $width10;
+      }
+    }
+  }
 }

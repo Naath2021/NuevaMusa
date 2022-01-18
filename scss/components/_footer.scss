@@ -1,12 +1,12 @@
-#bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto{
-    footer{
-        background-color: $color1;
-        color: $colorclaro;
-        svg{
-            fill: $colorclaro;
-        }
-        .disclaimer{
-            font-size: $height3;
-        }
+#bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto {
+  footer {
+    background-color: $color1;
+    color: $colorclaro;
+    svg {
+      fill: $colorclaro;
     }
+    .disclaimer {
+      font-size: $height3;
+    }
+  }
 }

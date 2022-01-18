@@ -1,56 +1,58 @@
-#bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto{
-    header{
-        text-align: center;
-        width: $width100;
-        height: $heightauto;
-        padding-bottom: 5vh;
-        a{
-            img{
-                margin-top: $height3;
-                width: 6vw;
-            }
-        }
-        hr.solid{
-            height: 2px;
-            width: auto;
-            color: $color5;
-        }
-        .menudesktop{
-            ul{
-                margin: 0;
-                padding: 0;
-                li{
-                    display: inline;
-                    padding: $size1;
-                    &:hover{
-                        background-color: rgba(8, 167, 125, 0.3);
-                        transition-duration: 800ms;
-                        padding: 0.5vw;
-                        border-radius: 5px;
-                    }
-                    a{
-                        text-decoration: none;
-                        color: $coloroscuro;
-                        font-size: $font-size4;
-                    }
-                }
-            }
-        }
+#bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto {
+  header {
+    text-align: center;
+    width: $width100;
+    height: $heightauto;
+    padding-bottom: 5vh;
+    a {
+      img {
+        margin-top: $height3;
+        width: 6vw;
+      }
     }
-    @media screen and (max-width:768px) {
-        header{
-            height: $height10 +8vh;
-            .menudesktop{
-                img{
-                    width: $width10;
-                }
-                hr{
-                    display: none;
-                }
-                ul{
-                    display: none;
-                }
-            }
-        }
+    hr.solid {
+      height: 2px;
+      width: auto;
+      color: $color5;
     }
+    .menudesktop {
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          display: inline;
+          padding: $size1;
+          &:hover {
+            background-color: rgba(8, 167, 125, 0.3);
+            transition-duration: 800ms;
+            padding: 0.5vw;
+            border-radius: 5px;
+          }
+          a {
+            text-decoration: none;
+            color: $coloroscuro;
+            font-size: $font-size4;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    header {
+      height: $heightauto;
+      .menudesktop {
+        a {
+          img {
+            width: $width10 * 1.5;
+          }
+        }
+        hr {
+          display: none;
+        }
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
 }
