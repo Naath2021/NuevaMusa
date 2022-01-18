@@ -534,7 +534,8 @@
       display: none; } }
 
 #bodyindex .menumobile button, #bodysobremusa .menumobile button, #bodycombinaciones .menumobile button, #bodypedidos .menumobile button, #bodycontacto .menumobile button {
-  border: 0px; }
+  border: 0px;
+  padding-top: 3vh; }
 
 #bodyindex .menumobile .offcanvas-header, #bodysobremusa .menumobile .offcanvas-header, #bodycombinaciones .menumobile .offcanvas-header, #bodypedidos .menumobile .offcanvas-header, #bodycontacto .menumobile .offcanvas-header {
   background-color: #d7ece7; }
