@@ -68,4 +68,33 @@
             color: $color1 
         }
     }
+    @media screen and (max-width: 768px){
+        @include flexcolumn;
+        .sec-comb1{
+            h1{
+                font-size: $width10;
+                text-align: left;
+            }
+            h2{
+                text-align: left;
+                font-size: $size2;
+            }
+        }
+        .sec-comb2, .sec-comb3, .sec-comb4{
+            width: $width100;
+            height: $heightauto;
+            .img-comb{
+                width: $width10 *2.5;
+                height: $heightauto;
+            }
+            .title-comb{
+                font-size: $size2;
+            }
+            .text-comb{
+                font-size: $size12;
+                width: $width80;
+                height: $heightauto;
+            }
+        }
+    }
 }

@@ -132,6 +132,18 @@
                 }
             }
         }
+        .section3{
+            h2{
+                font-size: $size11;
+                &:hover{
+                    font-size: 6.5vw;
+                    transition-duration: 300ms;
+                }
+            }
+            h3{
+                font-size: $size2;
+            }
+        }
         .section2, .section4, .section5{
             @include flexcolumn;
             width: $width100;
@@ -143,7 +155,7 @@
                     font-size: $size11;
                     padding: $height10  0 $height3 0;
                     &:hover{
-                        font-size: 3.5vh;
+                        font-size: 6.5vh;
                         transition-duration: 300ms;
                     }
                 }
@@ -166,14 +178,6 @@
                     width: $width80;
                     height: $heightauto;
                 }
-            }
-        }
-        .section3{
-            h2{
-                font-size: $size11;
-            }
-            h3{
-                font-size: $size2;
             }
         }
     }
