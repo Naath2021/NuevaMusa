@@ -8,17 +8,17 @@
         width: $width100;
         height: $height100;
         background-image: url(/img/Bosques2.JPG);
-        @include background;
+        @extend %background;
         h1{
             color: $color3;
             text-align: right;
-            font-size: $size3;
+            font-size: $size2;
             padding-right: $width10;
         }
         h2{
             color: $color3;
             text-align: right;
-            font-size: $font-size3;
+            font-size: $size7;
             font-weight: $weight;
             padding-right: $width10;
         }
@@ -66,6 +66,35 @@
         h3{
             @extend %h3-comb;
             color: $color1 
+        }
+    }
+    @media screen and (max-width: 768px){
+        @include flexcolumn;
+        .sec-comb1{
+            h1{
+                font-size: $width10;
+                text-align: left;
+            }
+            h2{
+                text-align: left;
+                font-size: $size2;
+            }
+        }
+        .sec-comb2, .sec-comb3, .sec-comb4{
+            width: $width100;
+            height: $heightauto;
+            .img-comb{
+                width: $width10 *3;
+                height: $heightauto;
+            }
+            .title-comb{
+                font-size: $size2;
+            }
+            .text-comb{
+                font-size: $size12;
+                width: $width80;
+                height: $heightauto;
+            }
         }
     }
 }

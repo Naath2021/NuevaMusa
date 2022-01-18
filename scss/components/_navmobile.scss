@@ -1,5 +1,39 @@
 #bodyindex, #bodysobremusa, #bodycombinaciones, #bodypedidos, #bodycontacto{
     .menumobile{
-        display: none;
+        button{
+            border: 0px;
+            padding-top: $height3;
+        }
+        .offcanvas-header{
+            background-color: $color7;
+            .offcanvas-title{
+                color: $color1;
+            }
+        }
+        .offcanvas-body{
+            background-color: $color7;
+            .nav-link{
+                color: $color1;
+            }
+            .dropdown-menu{
+                background-color: $color7;
+                border: 1px solid $color1;
+                margin-bottom: 10px;
+                .dropdown-item{
+                    color: $color1;
+                    background-color: $color7;
+                    text-align: center;
+                }
+            }
+            .btn-outline-success{
+                background-color: $color1;
+                color: $colorclaro
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .menumobile{
+            display: none;
+        }
     }
 }

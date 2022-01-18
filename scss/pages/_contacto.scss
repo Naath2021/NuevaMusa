@@ -7,20 +7,20 @@
             font-weight: $weight;
             padding-bottom: 5vh;
             text-align: center;
-            font-size: $size3;
+            font-size: $size12;
             color: $color5;
         }
         h2{
             font-weight: $weight;
             padding: 0.5 0 0.5 0 ;
-            font-size: $font-size3;
+            font-size: $size7;
             color: $coloroscuro;
             text-align: center;
         }
         a{
             font-weight: $weight;
             padding: 0.5 0 0.5 0 ;
-            font-size: $font-size3;
+            font-size: $font-size4;
             color: $coloroscuro;
             text-align: center;
         }
@@ -36,6 +36,13 @@
             background-color: $color1;
             color: $color4;
             border: 1px solid $colorclaro;
+            font-size: $font-size4;
+        }
+        input{
+            font-size: $font-size4;
+        }
+        textarea{
+            font-size: $font-size4;
         }
         .btn{
             background-color: $color4;
@@ -46,8 +53,39 @@
     }
     h3{
         text-align: center;
-        font-size: $size10;
+        font-size: $font-size2;
         color: $color3;
         margin: $height10 0;
+    }
+    @media screen and (max-width: 768px) {
+        .sec-contacto1{
+            h1{
+                font-size: 5vh;
+            }
+            h2{
+                font-size: $size12;
+            }
+        }
+        .sec-contacto2{
+            .input-group{
+                width: $width80;
+                height: $heightauto;
+            }
+            .input-group-text{
+                font-size: $size12;
+            }
+            .btn-primary{
+                font-size: $size12;
+            }
+            input{
+                font-size: $font-size2 +0.5vw;
+            }
+            textarea{
+                font-size: $font-size2 +0.5vw;
+            }
+        }
+        h3{
+            font-size: $size2;
+        }
     }
 }

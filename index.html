@@ -32,58 +32,55 @@
     </nav>
 
       <!-- NAV MODO MOBILE -->
-    <nav class="menumobile navbar-light bg-light fixed-top">
+      <nav class="menumobile navbar navbar-light fixed-top">
         <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span> </button>
-                
+          <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+  
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="sobremusa.html">Sobre Musa</a></li>
-
+                 <a class="nav-link" href="sobremusa.html">Sobre Musa</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="pedidos.html">Pedidos</a></li>
-                            
+                <a class="nav-link" href="pedidos.html">Pedidos</a></li>              
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a></li>
-
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="combinaciones.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Combinaciones</a>
-                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="/combinaciones.html">Cayena</a></li>
-                        <li><a class="dropdown-item" href="/combinaciones.html">Moya</a></li>
-                        <li><a class="dropdown-item" href="/combinaciones.html">Bayana</a></li>
-                      </ul>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="/combinaciones.html">Cayena</a></li>
+                    <li><a class="dropdown-item" href="/combinaciones.html">Moya</a></li>
+                    <li><a class="dropdown-item" href="/combinaciones.html">Bayana</a></li>
+                  </ul>
               </li>
             </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   </header>
 
             <!-- INICIO DEL BODY -->
-
+<main>
   <section class="section1" id="btnindex">
     <div class=" div1 animate__lightSpeedInLeft">
       <h1 class="animate__animated animate__lightSpeedInLeft">¡Bienvenido!</h1>
       <h2 class="animate__animated animate__lightSpeedInLeft">Nos contenta tenerte acá</h2>
-      </div>
-    </section>
+    </div>
+  </section>
 
   <section class="section2">
     <div class="div2">
@@ -98,7 +95,7 @@
 
   <section class="section3">
       <h2 class="animate__animated animate__heartBeat">¡Sabores exóticos!</h2>
-      <h4 class="animate__animated animate__heartBeat">Combinaciones únicas. </h4>
+      <h3 class="animate__animated animate__heartBeat">Combinaciones únicas. </h3>
   </section>
 
   <section class="section4">
@@ -112,7 +109,6 @@
   </section>
 
   <section class="section5">
-
     <div class="div6">
       <img src="/img/araya.JPG" alt="botellas-de-jugos">
     </div>
@@ -127,15 +123,12 @@
       <h4>¿Estás preparado para disfrutar?</h4>
       <a href="pedidos.html">¡Compra ahora!</a>
   </section>
-
   <button class="btn-to-top">
     <a href="#btnindex"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgb(8, 167, 125)" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
     </svg></a>
   </button>
-
-
-
+</main>
 
 <!-- FOOTER -->
 <footer class="d-flex flex-wrap justify-content-around align-items-center py-5 my-0 border-top">
