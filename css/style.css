@@ -307,7 +307,7 @@
           width: 80vw;
           height: auto; }
           #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
-            font-size: 5vw;
+            font-size: 5vh;
             text-align: center; }
           #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
             font-size: 3vw;
@@ -373,7 +373,7 @@
         width: 100vw;
         height: auto; }
         #bodycombinaciones .sec-comb2 .img-comb, #bodycombinaciones .sec-comb3 .img-comb, #bodycombinaciones .sec-comb4 .img-comb {
-          width: 25vw;
+          width: 30vw;
           height: auto; }
         #bodycombinaciones .sec-comb2 .title-comb, #bodycombinaciones .sec-comb3 .title-comb, #bodycombinaciones .sec-comb4 .title-comb {
           font-size: 4vw; }
@@ -396,8 +396,7 @@
       width: 20vw;
       height: auto;
       border-radius: 50%;
-      box-shadow: 0 0 10px #1f1919;
-      margin-top: 6vh; }
+      box-shadow: 0 0 10px #1f1919; }
     #bodypedidos section h1 {
       color: #52161b;
       font-size: 2vw;
@@ -416,6 +415,15 @@
       margin-bottom: 15vh; }
       #bodypedidos section a:hover {
         background-color: #52161b; }
+  @media screen and (max-width: 768px) {
+    #bodypedidos section img {
+      width: 30vw;
+      height: auto; }
+    #bodypedidos section h1 {
+      font-size: 4vw; }
+    #bodypedidos section h2 {
+      font-size: 3vw;
+      width: 90vw; } }
 
 #bodycontacto {
   background-color: #dff0ec; }
@@ -468,6 +476,24 @@
     font-size: 2vw;
     color: #08a77d;
     margin: 10vh 0; }
+  @media screen and (max-width: 768px) {
+    #bodycontacto .sec-contacto1 h1 {
+      font-size: 5vh; }
+    #bodycontacto .sec-contacto1 h2 {
+      font-size: 3vw; }
+    #bodycontacto .sec-contacto2 .input-group {
+      width: 80vw;
+      height: auto; }
+    #bodycontacto .sec-contacto2 .input-group-text {
+      font-size: 3vw; }
+    #bodycontacto .sec-contacto2 .btn-primary {
+      font-size: 3vw; }
+    #bodycontacto .sec-contacto2 input {
+      font-size: 2.5vw; }
+    #bodycontacto .sec-contacto2 textarea {
+      font-size: 2.5vw; }
+    #bodycontacto h3 {
+      font-size: 4vw; } }
 
 #bodyindex header, #bodysobremusa header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
   text-align: center;
@@ -541,7 +567,7 @@
   #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
     fill: #dff0ec; }
   #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
-    font-size: 2vw; }
+    font-size: 3vh; }
 
 #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
   display: flex;

@@ -9,7 +9,6 @@
             height: $heightauto;
             border-radius: 50%;
             box-shadow: 0 0 10px rgb(31, 25, 25);
-            margin-top: $size3;
         }
         h1{
             color: $coloroscuro;
@@ -32,6 +31,21 @@
             margin-bottom: 15vh;
             &:hover{
                 background-color: $coloroscuro;
+            }
+        }
+    }
+    @media screen and (max-width: 768px){
+        section{
+            img{
+                width: 30vw;
+                height: $heightauto;
+            }
+            h1{
+                font-size: $size2;
+            }
+            h2{
+                font-size: $size12;
+                width: $width80 +$width10;
             }
         }
     }

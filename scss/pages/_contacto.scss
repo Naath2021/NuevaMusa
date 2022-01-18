@@ -57,4 +57,35 @@
         color: $color3;
         margin: $height10 0;
     }
+    @media screen and (max-width: 768px) {
+        .sec-contacto1{
+            h1{
+                font-size: $size9;
+            }
+            h2{
+                font-size: $size12;
+            }
+        }
+        .sec-contacto2{
+            .input-group{
+                width: $width80;
+                height: $heightauto;
+            }
+            .input-group-text{
+                font-size: $size12;
+            }
+            .btn-primary{
+                font-size: $size12;
+            }
+            input{
+                font-size: $font-size2 +0.5vw;
+            }
+            textarea{
+                font-size: $font-size2 +0.5vw;
+            }
+        }
+        h3{
+            font-size: $size2;
+        }
+    }
 }
