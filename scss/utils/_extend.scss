@@ -9,11 +9,11 @@
   height: $heightauto;
 }
 %h2-comb {
-  font-size: $size12;
+  font-size: $font-size2;
   padding: $size3 0;
 }
 %h3-comb {
-  font-size: $size7;
+  font-size: $font-size4 +0.2vw;
   width: $width50 + $width10;
   text-align: justify;
   padding: $size8 0;
@@ -21,12 +21,6 @@
 %body {
   @include fonts;
   @include flexcolumn;
-}
-%background {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 %textdeco {
   text-decoration: none;

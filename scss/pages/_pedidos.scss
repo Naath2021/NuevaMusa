@@ -18,12 +18,13 @@
     h2 {
       width: $width50;
       height: $heightauto;
-      font-size: $size7;
+      font-size: $font-size4;
       text-align: justify;
       padding-bottom: $size10;
     }
     a {
       border: 1px solid $color1;
+      border-radius: 5px;
       @extend %textdeco;
       background-color: $color1;
       color: $colorclaro;
@@ -36,16 +37,26 @@
   }
   @media screen and (max-width: 768px) {
     section {
+      padding-top: $height10;
       img {
         width: 30vw;
         height: $heightauto;
       }
       h1 {
-        font-size: $size2;
+        font-size: $size5;
+        width: $width80 -$width10;
+        text-align: center;
       }
       h2 {
         font-size: $size12;
-        width: $width80 + $width10;
+        width: $width80;
+      }
+      a{
+        font-size: $size12;
+        border-radius: 5px;
+      &:hover {
+        background-color: $coloroscuro;
+      }
       }
     }
   }

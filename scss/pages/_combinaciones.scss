@@ -3,12 +3,13 @@
   @include flexcolumn;
   background-color: $colorclaro;
   .sec-comb1 {
-    padding-top: $size4;
+    padding-top: $height10 *2;
     padding-left: 6vw;
     width: $width100;
     height: $height100;
-    background-image: url(/img/Bosques2.JPG);
-    @extend %background;
+    background-image: url(/img/Bosques2.jpg);
+    @include background;
+    background-position:center;
     h1 {
       color: $color3;
       text-align: right;
@@ -71,27 +72,33 @@
   @media screen and (max-width: 768px) {
     @include flexcolumn;
     .sec-comb1 {
+      padding-top: $height10;
+      @include background;
+      background-position:left;
       h1 {
         font-size: $size11;
-        text-align: right;
+        text-align: left;
       }
       h2 {
-        text-align: right;
-        font-size: $size2;
+        text-align: left;
+        font-size: $size12;
+        width: $width50;
       }
     }
     .sec-comb2,.sec-comb3,.sec-comb4 {
       width: $width100;
-      height: $height100;
+      height: $heightauto;
       .img-comb {
         width: $width10 * 2.5;
         height: $heightauto;
       }
       .title-comb {
-        font-size: $size2;
+        font-size: $size2 +$size7;
+        text-align: center;
+        width: $width80 +$size5;
       }
       .text-comb {
-        font-size: $font-size2;
+        font-size: $size12;
         width: $width80;
         height: $heightauto;
       }

@@ -22,18 +22,22 @@
     padding-left: 6vw;
     width: auto;
     height: 100vh;
-    background-image: url(/img/bosqueslinea.JPG); }
+    background-image: url(/img/bosqueslinea.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
     #bodyindex .section1 .div1 h1 {
       text-align: right;
       font-style: italic;
       font-size: 6vw;
       color: #dff0ec;
-      text-shadow: 0 0 5px #1f1919; }
+      text-shadow: 2px 3px 5px #1f1919; }
     #bodyindex .section1 .div1 h2 {
       font-size: 2vw;
       text-align: center;
       color: #dff0ec;
-      text-shadow: 0 0 5px #1f1919;
+      text-shadow: 2px 3px 5px #1f1919;
       font-style: italic;
       font-weight: 400; }
   #bodyindex .section2 {
@@ -51,12 +55,12 @@
       height: auto; }
       #bodyindex .section2 .div2 h2 {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: #831d4a;
         padding-bottom: 8vh;
         padding-top: 4vw; }
         #bodyindex .section2 .div2 h2:hover {
-          font-size: 2.5vw;
+          font-size: 2vw;
           transition-duration: 300ms; }
       #bodyindex .section2 .div2 h3 {
         font-size: 1vw;
@@ -79,14 +83,14 @@
     height: 40vh;
     padding: 10vh 0vh; }
     #bodyindex .section3 h2 {
-      font-size: 4vw;
+      font-size: 3.5vw;
       color: #28486f;
       padding-bottom: 3vh; }
       #bodyindex .section3 h2:hover {
-        font-size: 5vw;
+        font-size: 3.5vw;
         transition-duration: 300ms; }
-    #bodyindex .section3 h4 {
-      font-size: 2vw;
+    #bodyindex .section3 h3 {
+      font-size: 1.5vw;
       color: #28486f; }
   #bodyindex .section4, #bodyindex .section5 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -102,11 +106,11 @@
       width: 100vw; }
       #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: #831d4a;
         padding-bottom: 8vh; }
         #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
-          font-size: 3vw;
+          font-size: 2vw;
           transition-duration: 300ms; }
       #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
         text-align: left;
@@ -123,11 +127,11 @@
       #bodyindex .section1 .div1 h1 {
         font-size: 10vw;
         text-align: left;
-        text-shadow: 0 0 5px #1f1919; }
+        text-shadow: 2px 3px 5px #1f1919; }
       #bodyindex .section1 .div1 h2 {
         font-size: 4vw;
         text-align: center;
-        text-shadow: 0 0 5px #1f1919; }
+        text-shadow: 2px 3px 5px #1f1919; }
     #bodyindex .section3 h2 {
       font-size: 6vw; }
       #bodyindex .section3 h2:hover {
@@ -154,13 +158,13 @@
             font-size: 6.3vw;
             transition-duration: 300ms; }
         #bodyindex .section2 .div2 h3, #bodyindex .section2 .div4 h3, #bodyindex .section2 .div7 h3, #bodyindex .section4 .div2 h3, #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div2 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
-          font-size: 3vw;
+          font-size: 3.5vw;
           text-align: justify;
           padding-bottom: 8vh; }
       #bodyindex .section2 .div3, #bodyindex .section4 .div3, #bodyindex .section5 .div3 {
         padding-bottom: 3vh; }
         #bodyindex .section2 .div3 img, #bodyindex .section4 .div3 img, #bodyindex .section5 .div3 img {
-          width: 80vw;
+          width: 100vw;
           height: auto; }
       #bodyindex .section2 .div5, #bodyindex .section2 .div6, #bodyindex .section4 .div5, #bodyindex .section4 .div6, #bodyindex .section5 .div5, #bodyindex .section5 .div6 {
         margin: 3vh 0; }
@@ -215,16 +219,20 @@
     width: auto;
     height: auto;
     text-align: center;
-    background-image: url(/img/palma.jpg); }
+    background-image: url(/img/palma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
     #bodysobremusa .sec-acerca2 .div10 h2 {
       padding-top: 8vh;
       padding-bottom: 3vh;
       color: #831d4a;
-      font-size: 3vw; }
+      font-size: 4vw; }
     #bodysobremusa .sec-acerca2 .div10 h3 {
       padding-bottom: 8vh;
       color: #831d4a;
-      font-size: 2vw; }
+      font-size: 1.5vw; }
   #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
     display: flex;
     flex-direction: row;
@@ -247,7 +255,7 @@
       border-radius: 5px; }
       #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
         padding: 10vh 4vw 3vh 4vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: #52161b;
         text-align: center; }
       #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
@@ -282,8 +290,8 @@
             padding-top: 8vh;
             font-size: 6vw; }
           #bodysobremusa .sec-acerca1 .div9 h2 {
-            padding: 0 3vw 4vh 3vw;
-            font-size: 3vw;
+            padding: 0 3.5vw 4vh 3.5vw;
+            font-size: 3.5vw;
             text-align: justify; }
       #bodysobremusa .sec-acerca2 {
         display: flex;
@@ -311,8 +319,8 @@
             font-size: 5vw;
             text-align: center; }
           #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
-            font-size: 3vw;
-            text-align: center; } }
+            font-size: 3.5vw;
+            text-align: justify; } }
 
 #bodycombinaciones {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -323,11 +331,15 @@
   align-content: center;
   background-color: #dff0ec; }
   #bodycombinaciones .sec-comb1 {
-    padding-top: 8vh;
+    padding-top: 20vh;
     padding-left: 6vw;
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/Bosques2.JPG); }
+    background-image: url(/img/Bosques2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
     #bodycombinaciones .sec-comb1 h1 {
       color: #08a77d;
       text-align: right;
@@ -364,22 +376,31 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-content: center; }
-      #bodycombinaciones .sec-comb1 h1 {
-        font-size: 6vw;
-        text-align: right; }
-      #bodycombinaciones .sec-comb1 h2 {
-        text-align: right;
-        font-size: 4vw; }
+      #bodycombinaciones .sec-comb1 {
+        padding-top: 10vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left; }
+        #bodycombinaciones .sec-comb1 h1 {
+          font-size: 6vw;
+          text-align: left; }
+        #bodycombinaciones .sec-comb1 h2 {
+          text-align: left;
+          font-size: 3.5vw;
+          width: 50vw; }
       #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
         width: 100vw;
-        height: 100vh; }
+        height: auto; }
         #bodycombinaciones .sec-comb2 .img-comb, #bodycombinaciones .sec-comb3 .img-comb, #bodycombinaciones .sec-comb4 .img-comb {
           width: 25vw;
           height: auto; }
         #bodycombinaciones .sec-comb2 .title-comb, #bodycombinaciones .sec-comb3 .title-comb, #bodycombinaciones .sec-comb4 .title-comb {
-          font-size: 4vw; }
+          font-size: 5.5vw;
+          text-align: center;
+          width: 85vw; }
         #bodycombinaciones .sec-comb2 .text-comb, #bodycombinaciones .sec-comb3 .text-comb, #bodycombinaciones .sec-comb4 .text-comb {
-          font-size: 2vw;
+          font-size: 3.5vw;
           width: 80vw;
           height: auto; } }
 
@@ -405,11 +426,12 @@
     #bodypedidos section h2 {
       width: 50vw;
       height: auto;
-      font-size: 1.5vw;
+      font-size: 1vw;
       text-align: justify;
       padding-bottom: 4vh; }
     #bodypedidos section a {
       border: 1px solid #831d4a;
+      border-radius: 5px;
       background-color: #831d4a;
       color: #dff0ec;
       padding: 7px;
@@ -417,14 +439,23 @@
       #bodypedidos section a:hover {
         background-color: #52161b; }
   @media screen and (max-width: 768px) {
-    #bodypedidos section img {
-      width: 30vw;
-      height: auto; }
-    #bodypedidos section h1 {
-      font-size: 4vw; }
-    #bodypedidos section h2 {
-      font-size: 3vw;
-      width: 90vw; } }
+    #bodypedidos section {
+      padding-top: 10vh; }
+      #bodypedidos section img {
+        width: 30vw;
+        height: auto; }
+      #bodypedidos section h1 {
+        font-size: 5vw;
+        width: 70vw;
+        text-align: center; }
+      #bodypedidos section h2 {
+        font-size: 3.5vw;
+        width: 80vw; }
+      #bodypedidos section a {
+        font-size: 3.5vw;
+        border-radius: 5px; }
+        #bodypedidos section a:hover {
+          background-color: #52161b; } }
 
 #bodycontacto {
   background-color: #dff0ec; }
@@ -434,7 +465,7 @@
       font-weight: 400;
       padding-bottom: 5vh;
       text-align: center;
-      font-size: 3vw;
+      font-size: 3.5vw;
       color: #28486f; }
     #bodycontacto .sec-contacto1 h2 {
       font-weight: 400;
@@ -481,14 +512,14 @@
     #bodycontacto .sec-contacto1 h1 {
       font-size: 5vh; }
     #bodycontacto .sec-contacto1 h2 {
-      font-size: 3vw; }
+      font-size: 3.5vw; }
     #bodycontacto .sec-contacto2 .input-group {
       width: 80vw;
       height: auto; }
     #bodycontacto .sec-contacto2 .input-group-text {
-      font-size: 3vw; }
+      font-size: 3.5vw; }
     #bodycontacto .sec-contacto2 .btn-primary {
-      font-size: 3vw; }
+      font-size: 3.5vw; }
     #bodycontacto .sec-contacto2 input {
       font-size: 2.5vw; }
     #bodycontacto .sec-contacto2 textarea {
@@ -575,9 +606,17 @@
   background-color: #831d4a;
   color: #dff0ec; }
   #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
-    fill: #dff0ec; }
+    fill: #dff0ec;
+    width: 1vw;
+    height: auto; }
   #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
-    font-size: 3vh; }
+    font-size: 1vw; }
+
+@media screen and (max-width: 768px) {
+  #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
+    width: 2.5vw; }
+  #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
+    font-size: 2.5vw; } }
 
 #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
   display: flex;
@@ -594,11 +633,11 @@
   height: auto; }
 
 #bodycombinaciones .sec-comb2 h2, #bodycombinaciones .sec-comb3 h2, #bodycombinaciones .sec-comb4 h2 {
-  font-size: 3vw;
+  font-size: 2vw;
   padding: 6vh 0; }
 
 #bodycombinaciones .sec-comb2 h3, #bodycombinaciones .sec-comb3 h3, #bodycombinaciones .sec-comb4 h3 {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   width: 60vw;
   text-align: justify;
   padding: 1.5vh 0; }
@@ -610,12 +649,6 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center; }
-
-#bodyindex .section1, #bodysobremusa .sec-acerca2, #bodycombinaciones .sec-comb1 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
 
 #bodypedidos section a {
   text-decoration: none;
@@ -653,13 +686,18 @@
   border: 0px;
   margin-bottom: 3vh;
   align-self: center;
-  margin-left: 49%; }
+  margin-left: 49.5%; }
 
 @media screen and (max-width: 768px) {
   #bodyindex .-btn h4, #bodysobremusa .-btn h4, #bodycombinaciones .-btn h4, #bodypedidos .-btn h4, #bodycontacto .-btn h4 {
-    font-size: 3vh; }
+    font-size: 4.5vw; }
   #bodyindex .-btn a, #bodysobremusa .-btn a, #bodycombinaciones .-btn a, #bodypedidos .-btn a, #bodycontacto .-btn a {
-    font-size: 2vh; }
+    font-size: 3.5vw; }
     #bodyindex .-btn a:hover, #bodysobremusa .-btn a:hover, #bodycombinaciones .-btn a:hover, #bodypedidos .-btn a:hover, #bodycontacto .-btn a:hover {
       color: #dff0ec;
-      background-color: #52161b; } }
+      background-color: #52161b; }
+  #bodyindex .btn-to-top, #bodysobremusa .btn-to-top, #bodycombinaciones .btn-to-top, #bodypedidos .btn-to-top, #bodycontacto .btn-to-top {
+    border: 0px;
+    margin-bottom: 3vh;
+    align-self: center;
+    margin-left: 46%; } }
