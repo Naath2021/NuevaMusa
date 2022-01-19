@@ -30,20 +30,26 @@
     border: 0px;
     margin-bottom: $height3;
     align-self: center;
-    margin-left: 49%;
+    margin-left: 49.5%;
   }
   @media screen and (max-width: 768px) {
     .-btn {
       h4 {
-        font-size: $height3;
+        font-size: $size2 +0.5vw;
       }
       a {
-        font-size: 2vh;
+        font-size: $size12;
         &:hover {
           color: $colorclaro;
           background-color: $coloroscuro;
         }
       }
+    }
+    .btn-to-top {
+      border: 0px;
+      margin-bottom: $height3;
+      align-self: center;
+      margin-left: 46%;
     }
   }
 }

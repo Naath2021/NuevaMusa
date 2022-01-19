@@ -26,3 +26,8 @@
   display: flex;
   flex-wrap: nowrap;
 }
+@mixin background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

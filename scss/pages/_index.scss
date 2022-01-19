@@ -9,20 +9,21 @@
     width: auto;
     height: $height100;
     background-image: url(/img/bosqueslinea.JPG);
-    @extend %background;
+    @include background;
+    background-position: center;
     .div1 {
       h1 {
         text-align: right;
         font-style: italic;
         font-size: $size11;
         color: $colorclaro;
-        text-shadow: $text-shadow;
+        text-shadow: $shadow;
       }
       h2 {
         font-size: $font-size2;
         text-align: center;
         color: $colorclaro;
-        text-shadow: $text-shadow;
+        text-shadow: $shadow;
         font-style: italic;
         font-weight: $weight;
       }
@@ -39,19 +40,19 @@
       height: $heightauto;
       h2 {
         @include fonts;
-        font-size: $font-size2;
+        font-size: $size7;
         color: $color1;
         padding-bottom: $size4;
         padding-top: $size2;
         &:hover {
-          font-size: 2.5vw;
+          font-size: $font-size2;
           transition-duration: 300ms;
         }
       }
       h3 {
         font-size: $font-size4;
         color: $color1;
-        padding: 0 5vw;
+        padding: 0 $size5;
         text-align: justify;
       }
     }
@@ -71,16 +72,16 @@
     height: 40vh;
     padding: $height10 0vh;
     h2 {
-      font-size: $size2;
+      font-size: $size12;
       color: $color5;
       padding-bottom: $height3;
       &:hover {
-        font-size: 5vw;
+        font-size: 3.5vw;
         transition-duration: 300ms;
       }
     }
-    h4 {
-      font-size: $font-size2;
+    h3 {
+      font-size: $size7;
       color: $color5;
     }
   }
@@ -94,11 +95,11 @@
       width: $width100;
       h2 {
         @include fonts;
-        font-size: $font-size2;
+        font-size: $size7;
         color: $color1;
         padding-bottom: $size4;
         &:hover {
-          font-size: $size12;
+          font-size: $font-size2;
           transition-duration: 300ms;
         }
       }
@@ -106,7 +107,7 @@
         text-align: left;
         font-size: $font-size4;
         color: $color1;
-        padding: 0 5vw;
+        padding: 0 $size5;
       }
     }
     .div5, .div6 {
@@ -123,12 +124,12 @@
         h1 {
           font-size: $width10;
           text-align: left;
-          text-shadow: $text-shadow;
+          text-shadow: $shadow;
         }
         h2 {
           font-size: $size2;
           text-align: center;
-          text-shadow: $text-shadow;
+          text-shadow: $shadow;
         }
       }
     }
@@ -169,7 +170,7 @@
       .div3 {
         padding-bottom: $height3;
         img {
-          width: $width80;
+          width: $width100;
           height: $heightauto;
         }
       }
