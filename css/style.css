@@ -22,7 +22,7 @@
     padding-left: 6vw;
     width: auto;
     height: 100vh;
-    background-image: url(/img/bosqueslinea.JPG);
+    background-image: url(/img/bosqueslinea.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -79,11 +79,16 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     align-items: center;
     text-align: center;
-    width: 100vw;
-    height: 40vh;
-    padding: 10vh 0vh; }
+    width: auto;
+    height: auto;
+    padding: 10vh 0vh;
+    background-image: url(/img/hojas3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
     #bodyindex .section3 h2 {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #28486f;
       padding-bottom: 3vh; }
       #bodyindex .section3 h2:hover {
@@ -159,7 +164,7 @@
             transition-duration: 300ms; }
         #bodyindex .section2 .div2 h3, #bodyindex .section2 .div4 h3, #bodyindex .section2 .div7 h3, #bodyindex .section4 .div2 h3, #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div2 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
           font-size: 3.5vw;
-          text-align: justify;
+          text-align: center;
           padding-bottom: 8vh; }
       #bodyindex .section2 .div3, #bodyindex .section4 .div3, #bodyindex .section5 .div3 {
         padding-bottom: 3vh; }
@@ -219,7 +224,7 @@
     width: auto;
     height: auto;
     text-align: center;
-    background-image: url(/img/palma.jpg);
+    background-image: url(/img/palma.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -292,7 +297,7 @@
           #bodysobremusa .sec-acerca1 .div9 h2 {
             padding: 0 3.5vw 4vh 3.5vw;
             font-size: 3.5vw;
-            text-align: justify; }
+            text-align: left; }
       #bodysobremusa .sec-acerca2 {
         display: flex;
         flex-direction: column;
@@ -320,7 +325,7 @@
             text-align: center; }
           #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
             font-size: 3.5vw;
-            text-align: justify; } }
+            text-align: center; } }
 
 #bodycombinaciones {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -335,7 +340,7 @@
     padding-left: 6vw;
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/Bosques2.jpg);
+    background-image: url(/img/Bosques2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -503,11 +508,26 @@
       color: #52161b;
       border: 1px solid #831d4a;
       margin-top: 1.5vh; }
-  #bodycontacto h3 {
-    text-align: center;
-    font-size: 2vw;
-    color: #08a77d;
-    margin: 10vh 0; }
+  #bodycontacto .sec-contacto3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    #bodycontacto .sec-contacto3 h3 {
+      text-align: center;
+      font-size: 2vw;
+      color: #08a77d;
+      margin: 10vh 0; }
+    #bodycontacto .sec-contacto3 h6 {
+      text-align: center;
+      width: 25vw;
+      font-size: 1vw;
+      color: #28486f;
+      padding-top: 10vh;
+      padding-bottom: 4vh; }
   @media screen and (max-width: 768px) {
     #bodycontacto .sec-contacto1 h1 {
       font-size: 5vh; }
@@ -525,7 +545,24 @@
     #bodycontacto .sec-contacto2 textarea {
       font-size: 2.5vw; }
     #bodycontacto h3 {
-      font-size: 4vw; } }
+      font-size: 4vw; }
+    #bodycontacto .sec-contacto3 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center; }
+      #bodycontacto .sec-contacto3 h3 {
+        text-align: center;
+        font-size: 3.5vw;
+        color: #08a77d;
+        margin: 10vh 0; }
+      #bodycontacto .sec-contacto3 h6 {
+        text-align: center;
+        width: 76vw;
+        font-size: 2.3vw;
+        color: #28486f; } }
 
 #bodyindex header, #bodysobremusa header, #bodycombinaciones header, #bodypedidos header, #bodycontacto header {
   text-align: center;
@@ -614,7 +651,7 @@
 
 @media screen and (max-width: 768px) {
   #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
-    width: 2.5vw; }
+    width: 3vw; }
   #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
     font-size: 2.5vw; } }
 
@@ -639,7 +676,7 @@
 #bodycombinaciones .sec-comb2 h3, #bodycombinaciones .sec-comb3 h3, #bodycombinaciones .sec-comb4 h3 {
   font-size: 1.2vw;
   width: 60vw;
-  text-align: justify;
+  text-align: center;
   padding: 1.5vh 0; }
 
 #bodycontacto {
