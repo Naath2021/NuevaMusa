@@ -51,11 +51,24 @@
       margin-top: $size8;
     }
   }
-  h3 {
-    text-align: center;
-    font-size: $font-size2;
-    color: $color3;
-    margin: $height10 0;
+  .sec-contacto3{
+    @include fonts;
+    @include flexcolumn;
+    align-items: center;
+    h3 {
+      text-align: center;
+      font-size: $font-size2;
+      color: $color3;
+      margin: $height10 0;
+    }
+    h6{
+      text-align: center;
+      width: 25vw;
+      font-size: $font-size4;
+      color: $color5;
+      padding-top: $height10;
+      padding-bottom: $size10;
+    }
   }
   @media screen and (max-width: 768px) {
     .sec-contacto1 {
@@ -86,6 +99,22 @@
     }
     h3 {
       font-size: $size2;
+    }
+    .sec-contacto3{
+      @include flexcolumn;
+      align-items: center;
+      h3 {
+        text-align: center;
+        font-size: $size12;
+        color: $color3;
+        margin: $height10 0;
+      }
+      h6{
+        text-align: center;
+        width: $width80 -$size2;
+        font-size: $font-size2 +0.3vw;
+        color: $color5;
+      }
     }
   }
 }

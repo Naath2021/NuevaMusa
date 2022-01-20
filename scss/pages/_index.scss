@@ -8,7 +8,7 @@
     padding-left: 6vw;
     width: auto;
     height: $height100;
-    background-image: url(/img/bosqueslinea.JPG);
+    background-image: url(/img/bosqueslinea.png);
     @include background;
     background-position: center;
     .div1 {
@@ -68,11 +68,14 @@
     @include fonts;
     align-items: center;
     text-align: center;
-    width: $width100;
-    height: 40vh;
+    width: auto;
+    height: $heightauto;
     padding: $height10 0vh;
+    background-image: url(/img/hojas3.png);
+    @include background;
+    background-position: center;
     h2 {
-      font-size: $size12;
+      font-size: 3vw;
       color: $color5;
       padding-bottom: $height3;
       &:hover {
@@ -163,7 +166,7 @@
         }
         h3 {
           font-size: $size12;
-          text-align: justify;
+          text-align: center;
           padding-bottom: $size4;
         }
       }
