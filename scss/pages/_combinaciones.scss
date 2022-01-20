@@ -7,7 +7,7 @@
     padding-left: 6vw;
     width: $width100;
     height: $height100;
-    background-image: url(/img/Bosques2.png);
+    background-image: url(/img/Bosques21.png);
     @include background;
     background-position:center;
     h1 {
@@ -73,6 +73,7 @@
     @include flexcolumn;
     .sec-comb1 {
       padding-top: $height10;
+      background-image: url(/img/Bosques2.png);
       @include background;
       background-position:left;
       h1 {
