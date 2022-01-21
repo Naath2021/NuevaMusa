@@ -38,6 +38,9 @@
       @extend %h3-comb;
       color: $color6;
     }
+    h6{
+      @extend %h6comb;
+    }
   }
   .sec-comb3 {
     @extend %comb-section;
@@ -53,6 +56,9 @@
       @extend %h3-comb;
       color: $color6;
     }
+    h6{
+      @extend %h6comb;
+    }
   }
   .sec-comb4 {
     @extend %comb-section;
@@ -67,6 +73,9 @@
     h3 {
       @extend %h3-comb;
       color: $color1;
+    }
+    h6{
+      @extend %h6comb;
     }
   }
   @media screen and (max-width: 768px) {
@@ -88,7 +97,7 @@
     }
     .sec-comb2,.sec-comb3,.sec-comb4 {
       width: $width100;
-      height: $heightauto;
+      height: $height100;
       .img-comb {
         width: $width10 * 2.5;
         height: $heightauto;
@@ -102,6 +111,11 @@
         font-size: $size12;
         width: $width80;
         height: $heightauto;
+      }
+      .h6comb{
+        font-size: $size12;
+        color: $color1;
+        padding-top: $height10;
       }
     }
   }

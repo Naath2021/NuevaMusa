@@ -21,12 +21,10 @@
       .dropdown-menu {
         background-color: $color7;
         margin-bottom: 10px;
-        button{
-          a{
-            color: $color1;
-            background-color: $color7;
-            text-align: center;
-          }
+        .dropdown-item {
+          color: $color1;
+          background-color: $color7;
+          text-align: center;
         }
       }
       .form-control {

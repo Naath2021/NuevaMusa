@@ -86,7 +86,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; }
+    background-position: bottom; }
     #bodyindex .section3 h2 {
       font-size: 3vw;
       color: #28486f;
@@ -123,7 +123,7 @@
         color: #831d4a;
         padding: 0 5vw; }
     #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
-      width: 49.6vw;
+      width: 50vw;
       height: auto; }
   @media screen and (max-width: 768px) {
     #bodyindex .section1 {
@@ -397,7 +397,7 @@
           width: 50vw; }
       #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
         width: 100vw;
-        height: auto; }
+        height: 100vh; }
         #bodycombinaciones .sec-comb2 .img-comb, #bodycombinaciones .sec-comb3 .img-comb, #bodycombinaciones .sec-comb4 .img-comb {
           width: 25vw;
           height: auto; }
@@ -408,7 +408,11 @@
         #bodycombinaciones .sec-comb2 .text-comb, #bodycombinaciones .sec-comb3 .text-comb, #bodycombinaciones .sec-comb4 .text-comb {
           font-size: 3.5vw;
           width: 80vw;
-          height: auto; } }
+          height: auto; }
+        #bodycombinaciones .sec-comb2 .h6comb, #bodycombinaciones .sec-comb3 .h6comb, #bodycombinaciones .sec-comb4 .h6comb {
+          font-size: 3.5vw;
+          color: #831d4a;
+          padding-top: 10vh; } }
 
 #bodypedidos {
   background-color: #fae8f6; }
@@ -624,7 +628,7 @@
     #bodyindex .menumobile .offcanvas-body .dropdown-menu, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu, #bodypedidos .menumobile .offcanvas-body .dropdown-menu, #bodycontacto .menumobile .offcanvas-body .dropdown-menu {
       background-color: #d7ece7;
       margin-bottom: 10px; }
-      #bodyindex .menumobile .offcanvas-body .dropdown-menu button a, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu button a, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu button a, #bodypedidos .menumobile .offcanvas-body .dropdown-menu button a, #bodycontacto .menumobile .offcanvas-body .dropdown-menu button a {
+      #bodyindex .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodypedidos .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycontacto .menumobile .offcanvas-body .dropdown-menu .dropdown-item {
         color: #831d4a;
         background-color: #d7ece7;
         text-align: center; }
@@ -691,6 +695,16 @@
   text-decoration: none;
   list-style-type: none; }
 
+#bodyindex .btncomb .btnmoya, #bodysobremusa .btncomb .btnmoya, #bodycombinaciones .btncomb .btnmoya, #bodypedidos .btncomb .btnmoya, #bodycontacto .btncomb .btnmoya, #bodyindex .btncomb .btnbayana, #bodysobremusa .btncomb .btnbayana, #bodycombinaciones .btncomb .btnbayana, #bodypedidos .btncomb .btnbayana, #bodycontacto .btncomb .btnbayana, #bodyindex .btncomb .btncayena, #bodysobremusa .btncomb .btncayena, #bodycombinaciones .btncomb .btncayena, #bodypedidos .btncomb .btncayena, #bodycontacto .btncomb .btncayena {
+  border: 0px;
+  padding: 1vh 1.5vw 2vw 1.5vw;
+  background-color: rgba(255, 255, 255, 1e-06); }
+
+#bodycombinaciones .sec-comb2 h6, #bodycombinaciones .sec-comb3 h6, #bodycombinaciones .sec-comb4 h6 {
+  font-size: 1vw;
+  color: #831d4a;
+  padding-top: 10vh; }
+
 #bodyindex .-btn, #bodysobremusa .-btn, #bodycombinaciones .-btn, #bodypedidos .-btn, #bodycontacto .-btn {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
@@ -724,6 +738,22 @@
   margin-bottom: 3vh;
   align-self: center;
   margin-left: 49.5%; }
+
+#bodyindex .btncomb, #bodysobremusa .btncomb, #bodycombinaciones .btncomb, #bodypedidos .btncomb, #bodycontacto .btncomb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center; }
+  #bodyindex .btncomb .btnmoya svg:hover, #bodysobremusa .btncomb .btnmoya svg:hover, #bodycombinaciones .btncomb .btnmoya svg:hover, #bodypedidos .btncomb .btnmoya svg:hover, #bodycontacto .btncomb .btnmoya svg:hover {
+    fill: #cca6c6;
+    transition-duration: 600ms; }
+  #bodyindex .btncomb .btnbayana:hover svg, #bodysobremusa .btncomb .btnbayana:hover svg, #bodycombinaciones .btncomb .btnbayana:hover svg, #bodypedidos .btncomb .btnbayana:hover svg, #bodycontacto .btncomb .btnbayana:hover svg {
+    fill: #c2d8b1;
+    transition-duration: 600ms; }
+  #bodyindex .btncomb .btncayena svg:hover, #bodysobremusa .btncomb .btncayena svg:hover, #bodycombinaciones .btncomb .btncayena svg:hover, #bodypedidos .btncomb .btncayena svg:hover, #bodycontacto .btncomb .btncayena svg:hover {
+    fill: #f0cf5a;
+    transition-duration: 600ms; }
 
 @media screen and (max-width: 768px) {
   #bodyindex .-btn h4, #bodysobremusa .-btn h4, #bodycombinaciones .-btn h4, #bodypedidos .-btn h4, #bodycontacto .-btn h4 {

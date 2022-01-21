@@ -91,10 +91,10 @@
         font-size: $size12;
       }
       input {
-        font-size: $font-size2 + 0.5vw;
+        font-size: $font-size2 + $size9;
       }
       textarea {
-        font-size: $font-size2 + 0.5vw;
+        font-size: $font-size2 + $size9;
       }
     }
     h3 {
@@ -112,7 +112,7 @@
       h6{
         text-align: center;
         width: $width80 -$size2;
-        font-size: $font-size2 +0.5vw;
+        font-size: $font-size2 +$size9;
         color: $color5;
       }
     }

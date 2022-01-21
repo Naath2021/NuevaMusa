@@ -73,7 +73,7 @@
     padding: $height10 0vh;
     background-image: url(/img/hojas3.png);
     @include background;
-    background-position: center;
+    background-position: bottom;
     h2 {
       font-size: 3vw;
       color: $color5;
@@ -115,7 +115,7 @@
     }
     .div5, .div6 {
       img {
-        width: 49.6vw;
+        width: $width50;
         height: $heightauto;
       }
     }

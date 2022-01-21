@@ -32,10 +32,39 @@
     align-self: center;
     margin-left: 49.5%;
   }
+  .btncomb{
+    @include flexrow;
+    .btnmoya{
+      @extend %btncomb;
+      svg{
+        &:hover{
+          fill:rgb(204, 166, 198);
+          transition-duration: 600ms;
+        }
+      }
+    }
+    .btnbayana{
+      @extend %btncomb;
+      &:hover{
+        svg{
+          fill:rgb(194, 216, 177);
+          transition-duration: 600ms;}
+      }
+    }
+    .btncayena{
+      @extend %btncomb;
+      svg{
+        &:hover{
+          fill:rgb(240, 207, 90);
+          transition-duration: 600ms;
+        }
+      }
+    }
+  }
   @media screen and (max-width: 768px) {
     .-btn {
       h4 {
-        font-size: $size2 +0.5vw;
+        font-size: $size2 +$size9;
       }
       a {
         font-size: $size12;
