@@ -623,9 +623,8 @@
       color: #831d4a; }
     #bodyindex .menumobile .offcanvas-body .dropdown-menu, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu, #bodypedidos .menumobile .offcanvas-body .dropdown-menu, #bodycontacto .menumobile .offcanvas-body .dropdown-menu {
       background-color: #d7ece7;
-      border: 1px solid #831d4a;
       margin-bottom: 10px; }
-      #bodyindex .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodypedidos .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycontacto .menumobile .offcanvas-body .dropdown-menu .dropdown-item {
+      #bodyindex .menumobile .offcanvas-body .dropdown-menu button a, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu button a, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu button a, #bodypedidos .menumobile .offcanvas-body .dropdown-menu button a, #bodycontacto .menumobile .offcanvas-body .dropdown-menu button a {
         color: #831d4a;
         background-color: #d7ece7;
         text-align: center; }

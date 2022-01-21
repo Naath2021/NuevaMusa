@@ -20,12 +20,13 @@
       }
       .dropdown-menu {
         background-color: $color7;
-        border: 1px solid $color1;
         margin-bottom: 10px;
-        .dropdown-item {
-          color: $color1;
-          background-color: $color7;
-          text-align: center;
+        button{
+          a{
+            color: $color1;
+            background-color: $color7;
+            text-align: center;
+          }
         }
       }
       .form-control {
