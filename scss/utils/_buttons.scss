@@ -18,11 +18,13 @@
       color: $colorclaro;
       font-size: $font-size4;
       background-color: $color1;
+      transition: background-color .4s;
       padding: 1vh 2vw;
       border-radius: 5px;
       &:hover {
         color: $colorclaro;
         background-color: $coloroscuro;
+        transition: background-color .4s;
       }
     }
   }
@@ -32,10 +34,49 @@
     align-self: center;
     margin-left: 49.5%;
   }
+  .btncomb{
+    @include flexrow;
+    .btnmoya{
+      @extend %btncomb;
+      svg{
+        border-radius: 50%;
+        fill: rgb(217, 181, 211);
+        transition: fill .4s;
+        &:hover{
+          fill: rgb(235, 206, 255);
+          transition: fill .4s;
+        }
+      }
+    }
+    .btnbayana{
+      @extend %btncomb;
+      svg{
+        border-radius: 50%;
+        fill: rgb(201, 224, 182);
+        transition: fill .4s;
+        &:hover{
+          fill: rgb(214, 252, 186);
+          transition: fill .4s;
+        }
+      }
+    }
+    .btncayena{
+      @extend %btncomb;
+      svg{
+        border-radius: 50%;
+        fill: rgb(250, 217, 93);
+        transition: fill .4s;
+        &:hover{
+          fill: rgb(255, 232, 150);
+          transition: fill .4s;
+        }
+      }
+    }
+  }
   @media screen and (max-width: 768px) {
     .-btn {
       h4 {
-        font-size: $size2 +0.5vw;
+        font-size: $size2 +$size9;
       }
       a {
         font-size: $size12;

@@ -3,12 +3,10 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  list-style-type: none;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
+  list-style-type: none; }
 
 #bodyindex {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -28,12 +26,19 @@
     background-attachment: fixed;
     background-position: center; }
     #bodyindex .section1 .div1 h1 {
+      font-family: 'Lobster Two', cursive;
       text-align: right;
       font-style: italic;
       font-size: 6vw;
       color: #dff0ec;
-      text-shadow: 2px 3px 5px #1f1919; }
+      text-shadow: 2px 3px 5px #1f1919;
+      transition: text-shadow .4s; }
+      #bodyindex .section1 .div1 h1:hover {
+        color: white;
+        text-shadow: 5px 5px 10px #5f4d4d;
+        transition: all .4s; }
     #bodyindex .section1 .div1 h2 {
+      font-family: 'Lobster Two', cursive;
       font-size: 2vw;
       text-align: center;
       color: #dff0ec;
@@ -41,7 +46,7 @@
       font-style: italic;
       font-weight: 400; }
   #bodyindex .section2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -54,14 +59,16 @@
       width: 50vw;
       height: auto; }
       #bodyindex .section2 .div2 h2 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 1.5vw;
+        font-weight: 600;
         color: #831d4a;
         padding-bottom: 8vh;
-        padding-top: 4vw; }
+        padding-top: 4vw;
+        transition: font-size .4s; }
         #bodyindex .section2 .div2 h2:hover {
           font-size: 2vw;
-          transition-duration: 300ms; }
+          transition: font-size .4s; }
       #bodyindex .section2 .div2 h3 {
         font-size: 1vw;
         color: #831d4a;
@@ -76,29 +83,36 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     align-items: center;
     text-align: center;
     width: auto;
-    height: auto;
+    height: 35vh;
     padding: 10vh 0vh;
-    background-image: url(/img/hojas3.png);
+    background-image: url(/img/palmas2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; }
+    background-position: bottom; }
     #bodyindex .section3 h2 {
-      font-size: 3vw;
-      color: #28486f;
-      padding-bottom: 3vh; }
+      font-family: 'Lobster Two', cursive;
+      font-size: 4vw;
+      color: #52161b;
+      padding-bottom: 3vh;
+      transition: font-size .4s; }
       #bodyindex .section3 h2:hover {
-        font-size: 3.5vw;
-        transition-duration: 300ms; }
+        font-size: 4.5vw;
+        transition: font-size .4s; }
     #bodyindex .section3 h3 {
-      font-size: 1.5vw;
-      color: #28486f; }
+      font-family: 'Lobster Two', cursive;
+      font-size: 2vw;
+      color: #52161b;
+      transition: font-size .4s; }
+      #bodyindex .section3 h3:hover {
+        font-size: 2.5vw;
+        transition: font-size .4s; }
   #bodyindex .section4, #bodyindex .section5 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -110,20 +124,22 @@
     #bodyindex .section4 .div4, #bodyindex .section4 .div7, #bodyindex .section5 .div4, #bodyindex .section5 .div7 {
       width: 100vw; }
       #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 600;
         font-size: 1.5vw;
         color: #831d4a;
-        padding-bottom: 8vh; }
+        padding-bottom: 8vh;
+        transition: font-size .4s; }
         #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
           font-size: 2vw;
-          transition-duration: 300ms; }
+          transition: font-size .4s; }
       #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
         text-align: left;
         font-size: 1vw;
         color: #831d4a;
         padding: 0 5vw; }
     #bodyindex .section4 .div5 img, #bodyindex .section4 .div6 img, #bodyindex .section5 .div5 img, #bodyindex .section5 .div6 img {
-      width: 49.6vw;
+      width: 50vw;
       height: auto; }
   @media screen and (max-width: 768px) {
     #bodyindex .section1 {
@@ -138,13 +154,10 @@
         text-align: center;
         text-shadow: 2px 3px 5px #1f1919; }
     #bodyindex .section3 h2 {
-      font-size: 6vw; }
-      #bodyindex .section3 h2:hover {
-        font-size: 6.5vw;
-        transition-duration: 300ms; }
+      font-size: 6vw;
+      transition: font-size .4s; }
     #bodyindex .section3 h3 {
-      font-size: 4vw;
-      color: #28486f; }
+      font-size: 4vw; }
     #bodyindex .section2, #bodyindex .section4, #bodyindex .section5 {
       display: flex;
       flex-direction: column;
@@ -158,10 +171,11 @@
         height: auto; }
         #bodyindex .section2 .div2 h2, #bodyindex .section2 .div4 h2, #bodyindex .section2 .div7 h2, #bodyindex .section4 .div2 h2, #bodyindex .section4 .div4 h2, #bodyindex .section4 .div7 h2, #bodyindex .section5 .div2 h2, #bodyindex .section5 .div4 h2, #bodyindex .section5 .div7 h2 {
           font-size: 6vw;
-          padding: 10vh 0 3vh 0; }
+          padding: 10vh 0 3vh 0;
+          transition: font-size .4s; }
           #bodyindex .section2 .div2 h2:hover, #bodyindex .section2 .div4 h2:hover, #bodyindex .section2 .div7 h2:hover, #bodyindex .section4 .div2 h2:hover, #bodyindex .section4 .div4 h2:hover, #bodyindex .section4 .div7 h2:hover, #bodyindex .section5 .div2 h2:hover, #bodyindex .section5 .div4 h2:hover, #bodyindex .section5 .div7 h2:hover {
             font-size: 6.3vw;
-            transition-duration: 300ms; }
+            transition: font-size .4s; }
         #bodyindex .section2 .div2 h3, #bodyindex .section2 .div4 h3, #bodyindex .section2 .div7 h3, #bodyindex .section4 .div2 h3, #bodyindex .section4 .div4 h3, #bodyindex .section4 .div7 h3, #bodyindex .section5 .div2 h3, #bodyindex .section5 .div4 h3, #bodyindex .section5 .div7 h3 {
           font-size: 3.5vw;
           text-align: center;
@@ -178,7 +192,7 @@
           height: auto; } }
 
 #bodysobremusa {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -186,7 +200,7 @@
   align-content: center;
   background-color: #fae8f6; }
   #bodysobremusa .sec-acerca1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -205,8 +219,12 @@
       #bodysobremusa .sec-acerca1 .div9 h1 {
         text-align: center;
         font-size: 2vw;
+        transition: font-size .4s;
         color: #28486f;
         padding-bottom: 4vh; }
+        #bodysobremusa .sec-acerca1 .div9 h1:hover {
+          font-size: 2.5vw;
+          transition: font-size .4s; }
       #bodysobremusa .sec-acerca1 .div9 h2 {
         text-align: left;
         font-size: 1vw;
@@ -222,22 +240,32 @@
     text-align: center;
     align-items: stretch;
     width: auto;
-    height: auto;
+    height: 35vh;
     text-align: center;
-    background-image: url(/img/palma.png);
+    background-image: url(/img/palmas2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; }
     #bodysobremusa .sec-acerca2 .div10 h2 {
+      font-family: 'Lobster Two', cursive;
       padding-top: 8vh;
       padding-bottom: 3vh;
-      color: #831d4a;
-      font-size: 4vw; }
+      color: #52161b;
+      font-size: 4.5vw;
+      transition: font-size .4s; }
+      #bodysobremusa .sec-acerca2 .div10 h2:hover {
+        font-size: 5.5vw;
+        transition: font-size .4s; }
     #bodysobremusa .sec-acerca2 .div10 h3 {
+      font-family: 'Lobster Two', cursive;
       padding-bottom: 8vh;
-      color: #831d4a;
-      font-size: 1.5vw; }
+      color: #52161b;
+      font-size: 1.5vw;
+      transition: font-size .4s; }
+      #bodysobremusa .sec-acerca2 .div10 h3:hover {
+        font-size: 2vw;
+        transition: font-size .4s; }
   #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
     display: flex;
     flex-direction: row;
@@ -255,22 +283,24 @@
         height: 60vh; }
     #bodysobremusa .sec-acerca3 .div12, #bodysobremusa .sec-acerca3 .div13, #bodysobremusa .sec-acerca3 .div16, #bodysobremusa .sec-acerca4 .div12, #bodysobremusa .sec-acerca4 .div13, #bodysobremusa .sec-acerca4 .div16, #bodysobremusa .sec-acerca5 .div12, #bodysobremusa .sec-acerca5 .div13, #bodysobremusa .sec-acerca5 .div16 {
       background-color: #dff0ec;
+      border: 1px solid #cce7e1;
       width: 30vw;
       height: 60vh;
       border-radius: 5px; }
       #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
-        padding: 10vh 4vw 3vh 4vw;
+        padding: 10vh 5vw 3vh 5vw;
         font-size: 1.5vw;
         color: #52161b;
-        text-align: center; }
+        text-align: center;
+        font-weight: 500; }
       #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
-        text-align: justify;
+        text-align: left;
         font-size: 1vw;
         color: #28486f;
         padding: 3vh 5vh; }
   @media screen and (max-width: 768px) {
     #bodysobremusa {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: 'Ubuntu', sans-serif;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -295,9 +325,9 @@
             padding-top: 8vh;
             font-size: 6vw; }
           #bodysobremusa .sec-acerca1 .div9 h2 {
-            padding: 0 3.5vw 4vh 3.5vw;
+            padding: 0 4vw 4vh 4vw;
             font-size: 3.5vw;
-            text-align: left; }
+            text-align: center; }
       #bodysobremusa .sec-acerca2 {
         display: flex;
         flex-direction: column;
@@ -305,9 +335,9 @@
         justify-content: center;
         align-content: center; }
         #bodysobremusa .sec-acerca2 .div10 h2 {
-          font-size: 8vw; }
+          font-size: 10vw; }
         #bodysobremusa .sec-acerca2 .div10 h3 {
-          font-size: 4vw; }
+          font-size: 5.25vw; }
       #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
         display: flex;
         flex-direction: column;
@@ -322,13 +352,14 @@
           height: auto; }
           #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
             font-size: 5vw;
-            text-align: center; }
+            text-align: center;
+            padding: 8vh 6vw 3vh 6vw; }
           #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
             font-size: 3.5vw;
             text-align: center; } }
 
 #bodycombinaciones {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -346,16 +377,23 @@
     background-attachment: fixed;
     background-position: center; }
     #bodycombinaciones .sec-comb1 h1 {
-      color: #08a77d;
+      color: #fad95d;
       text-align: right;
       font-size: 4vw;
+      font-family: 'Lobster Two', cursive;
+      text-shadow: 2px 3px 5px #1f1919;
+      transition: text-shadow .4s;
       padding-right: 10vw; }
+      #bodycombinaciones .sec-comb1 h1:hover {
+        text-shadow: 5px 5px 10px #5f4d4d;
+        transition: text-shadow .4s; }
     #bodycombinaciones .sec-comb1 h2 {
-      color: #08a77d;
+      color: #fad95d;
       text-align: right;
-      font-size: 1.5vw;
+      font-size: 1.2vw;
       font-weight: 400;
-      padding-right: 10vw; }
+      padding-right: 10vw;
+      text-shadow: 0.5px 0.5px 1px #1f1919; }
   #bodycombinaciones .sec-comb2 {
     background-color: #faecba; }
     #bodycombinaciones .sec-comb2 h2 {
@@ -389,15 +427,19 @@
         background-attachment: fixed;
         background-position: left; }
         #bodycombinaciones .sec-comb1 h1 {
+          color: #52161b;
           font-size: 6vw;
-          text-align: left; }
+          text-align: left;
+          text-shadow: none; }
         #bodycombinaciones .sec-comb1 h2 {
+          color: #52161b;
           text-align: left;
           font-size: 3.5vw;
+          text-shadow: none;
           width: 50vw; }
       #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
         width: 100vw;
-        height: auto; }
+        height: 100vh; }
         #bodycombinaciones .sec-comb2 .img-comb, #bodycombinaciones .sec-comb3 .img-comb, #bodycombinaciones .sec-comb4 .img-comb {
           width: 25vw;
           height: auto; }
@@ -408,7 +450,11 @@
         #bodycombinaciones .sec-comb2 .text-comb, #bodycombinaciones .sec-comb3 .text-comb, #bodycombinaciones .sec-comb4 .text-comb {
           font-size: 3.5vw;
           width: 80vw;
-          height: auto; } }
+          height: auto; }
+        #bodycombinaciones .sec-comb2 .h6comb, #bodycombinaciones .sec-comb3 .h6comb, #bodycombinaciones .sec-comb4 .h6comb {
+          font-size: 3.5vw;
+          color: #831d4a;
+          padding-top: 10vh; } }
 
 #bodypedidos {
   background-color: #fae8f6; }
@@ -424,13 +470,17 @@
       width: 20vw;
       height: auto;
       border-radius: 50%;
-      box-shadow: 0 0 10px #1f1919; }
+      box-shadow: 5px 3px 10px #5f4d4d;
+      transition: box-shadow .4s; }
+      #bodypedidos section img:hover {
+        box-shadow: 8px 5px 20px #7e6767;
+        transition: box-shadow .4s; }
     #bodypedidos section h1 {
       color: #52161b;
       font-size: 2vw;
       padding: 6vh 0; }
     #bodypedidos section h2 {
-      width: 50vw;
+      width: 40vw;
       height: auto;
       font-size: 1vw;
       text-align: justify;
@@ -441,9 +491,12 @@
       background-color: #831d4a;
       color: #dff0ec;
       padding: 7px;
-      margin-bottom: 15vh; }
+      margin-bottom: 15vh;
+      transition: background-color .4s; }
       #bodypedidos section a:hover {
-        background-color: #52161b; }
+        color: #dff0ec;
+        background-color: #52161b;
+        transition: background-color .4s; }
   @media screen and (max-width: 768px) {
     #bodypedidos section {
       padding-top: 10vh; }
@@ -510,7 +563,7 @@
       border: 1px solid #831d4a;
       margin-top: 1.5vh; }
   #bodycontacto .sec-contacto3 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -527,11 +580,11 @@
       width: 25vw;
       font-size: 1vw;
       color: #28486f;
-      padding-top: 10vh;
+      padding-top: 8vh;
       padding-bottom: 4vh; }
   @media screen and (max-width: 768px) {
     #bodycontacto .sec-contacto1 h1 {
-      font-size: 5vh; }
+      font-size: 5vw; }
     #bodycontacto .sec-contacto1 h2 {
       font-size: 3.5vw; }
     #bodycontacto .sec-contacto2 .input-group {
@@ -561,7 +614,7 @@
         margin: 10vh 0; }
       #bodycontacto .sec-contacto3 h6 {
         text-align: center;
-        width: 76vw;
+        width: 60vw;
         font-size: 2.5vw;
         color: #28486f; } }
 
@@ -582,10 +635,11 @@
     padding: 0; }
     #bodyindex header .menudesktop ul li, #bodysobremusa header .menudesktop ul li, #bodycombinaciones header .menudesktop ul li, #bodypedidos header .menudesktop ul li, #bodycontacto header .menudesktop ul li {
       display: inline;
-      padding: 1vh; }
+      padding: 1vh;
+      transition: background-color .4s; }
       #bodyindex header .menudesktop ul li:hover, #bodysobremusa header .menudesktop ul li:hover, #bodycombinaciones header .menudesktop ul li:hover, #bodypedidos header .menudesktop ul li:hover, #bodycontacto header .menudesktop ul li:hover {
         background-color: rgba(8, 167, 125, 0.3);
-        transition-duration: 800ms;
+        transition: background-color .4s;
         padding: 0.5vw;
         border-radius: 5px; }
       #bodyindex header .menudesktop ul li a, #bodysobremusa header .menudesktop ul li a, #bodycombinaciones header .menudesktop ul li a, #bodypedidos header .menudesktop ul li a, #bodycontacto header .menudesktop ul li a {
@@ -623,7 +677,6 @@
       color: #831d4a; }
     #bodyindex .menumobile .offcanvas-body .dropdown-menu, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu, #bodypedidos .menumobile .offcanvas-body .dropdown-menu, #bodycontacto .menumobile .offcanvas-body .dropdown-menu {
       background-color: #d7ece7;
-      border: 1px solid #831d4a;
       margin-bottom: 10px; }
       #bodyindex .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodysobremusa .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycombinaciones .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodypedidos .menumobile .offcanvas-body .dropdown-menu .dropdown-item, #bodycontacto .menumobile .offcanvas-body .dropdown-menu .dropdown-item {
         color: #831d4a;
@@ -646,7 +699,11 @@
   #bodyindex footer svg, #bodysobremusa footer svg, #bodycombinaciones footer svg, #bodypedidos footer svg, #bodycontacto footer svg {
     fill: #dff0ec;
     width: 1vw;
-    height: auto; }
+    height: auto;
+    transition: fill .4s; }
+    #bodyindex footer svg:hover, #bodysobremusa footer svg:hover, #bodycombinaciones footer svg:hover, #bodypedidos footer svg:hover, #bodycontacto footer svg:hover {
+      fill: black;
+      transition: fill .4s; }
   #bodyindex footer .disclaimer, #bodysobremusa footer .disclaimer, #bodycombinaciones footer .disclaimer, #bodypedidos footer .disclaimer, #bodycontacto footer .disclaimer {
     font-size: 1vw; }
 
@@ -681,7 +738,7 @@
   padding: 1.5vh 0; }
 
 #bodycontacto {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -692,8 +749,18 @@
   text-decoration: none;
   list-style-type: none; }
 
+#bodyindex .btncomb .btnmoya, #bodysobremusa .btncomb .btnmoya, #bodycombinaciones .btncomb .btnmoya, #bodypedidos .btncomb .btnmoya, #bodycontacto .btncomb .btnmoya, #bodyindex .btncomb .btnbayana, #bodysobremusa .btncomb .btnbayana, #bodycombinaciones .btncomb .btnbayana, #bodypedidos .btncomb .btnbayana, #bodycontacto .btncomb .btnbayana, #bodyindex .btncomb .btncayena, #bodysobremusa .btncomb .btncayena, #bodycombinaciones .btncomb .btncayena, #bodypedidos .btncomb .btncayena, #bodycontacto .btncomb .btncayena {
+  border: 0px;
+  padding: 1vh 1.5vw 2vw 1.5vw;
+  background-color: rgba(255, 255, 255, 1e-06); }
+
+#bodycombinaciones .sec-comb2 h6, #bodycombinaciones .sec-comb3 h6, #bodycombinaciones .sec-comb4 h6 {
+  font-size: 1vw;
+  color: #831d4a;
+  padding-top: 10vh; }
+
 #bodyindex .-btn, #bodysobremusa .-btn, #bodycombinaciones .-btn, #bodypedidos .-btn, #bodycontacto .-btn {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -714,17 +781,47 @@
     color: #dff0ec;
     font-size: 1vw;
     background-color: #831d4a;
+    transition: background-color .4s;
     padding: 1vh 2vw;
     border-radius: 5px; }
     #bodyindex .-btn a:hover, #bodysobremusa .-btn a:hover, #bodycombinaciones .-btn a:hover, #bodypedidos .-btn a:hover, #bodycontacto .-btn a:hover {
       color: #dff0ec;
-      background-color: #52161b; }
+      background-color: #52161b;
+      transition: background-color .4s; }
 
 #bodyindex .btn-to-top, #bodysobremusa .btn-to-top, #bodycombinaciones .btn-to-top, #bodypedidos .btn-to-top, #bodycontacto .btn-to-top {
   border: 0px;
   margin-bottom: 3vh;
   align-self: center;
   margin-left: 49.5%; }
+
+#bodyindex .btncomb, #bodysobremusa .btncomb, #bodycombinaciones .btncomb, #bodypedidos .btncomb, #bodycontacto .btncomb {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center; }
+  #bodyindex .btncomb .btnmoya svg, #bodysobremusa .btncomb .btnmoya svg, #bodycombinaciones .btncomb .btnmoya svg, #bodypedidos .btncomb .btnmoya svg, #bodycontacto .btncomb .btnmoya svg {
+    border-radius: 50%;
+    fill: #d9b5d3;
+    transition: fill .4s; }
+    #bodyindex .btncomb .btnmoya svg:hover, #bodysobremusa .btncomb .btnmoya svg:hover, #bodycombinaciones .btncomb .btnmoya svg:hover, #bodypedidos .btncomb .btnmoya svg:hover, #bodycontacto .btncomb .btnmoya svg:hover {
+      fill: #ebceff;
+      transition: fill .4s; }
+  #bodyindex .btncomb .btnbayana svg, #bodysobremusa .btncomb .btnbayana svg, #bodycombinaciones .btncomb .btnbayana svg, #bodypedidos .btncomb .btnbayana svg, #bodycontacto .btncomb .btnbayana svg {
+    border-radius: 50%;
+    fill: #c9e0b6;
+    transition: fill .4s; }
+    #bodyindex .btncomb .btnbayana svg:hover, #bodysobremusa .btncomb .btnbayana svg:hover, #bodycombinaciones .btncomb .btnbayana svg:hover, #bodypedidos .btncomb .btnbayana svg:hover, #bodycontacto .btncomb .btnbayana svg:hover {
+      fill: #d6fcba;
+      transition: fill .4s; }
+  #bodyindex .btncomb .btncayena svg, #bodysobremusa .btncomb .btncayena svg, #bodycombinaciones .btncomb .btncayena svg, #bodypedidos .btncomb .btncayena svg, #bodycontacto .btncomb .btncayena svg {
+    border-radius: 50%;
+    fill: #fad95d;
+    transition: fill .4s; }
+    #bodyindex .btncomb .btncayena svg:hover, #bodysobremusa .btncomb .btncayena svg:hover, #bodycombinaciones .btncomb .btncayena svg:hover, #bodypedidos .btncomb .btncayena svg:hover, #bodycontacto .btncomb .btncayena svg:hover {
+      fill: #ffe896;
+      transition: fill .4s; }
 
 @media screen and (max-width: 768px) {
   #bodyindex .-btn h4, #bodysobremusa .-btn h4, #bodycombinaciones .-btn h4, #bodypedidos .-btn h4, #bodycontacto .-btn h4 {

@@ -21,8 +21,13 @@
       h1 {
         text-align: center;
         font-size: $font-size2;
+        transition: font-size .4s;
         color: $color5;
         padding-bottom: $height3 + $size1;
+        &:hover{
+          font-size: $font-size2 +$size9;
+          transition: font-size .4s;
+        }
       }
       h2 {
         text-align: left;
@@ -38,22 +43,34 @@
     text-align: center;
     align-items: stretch;
     width: auto;
-    height: $heightauto;
+    height: $height10 *3.5;
     text-align: center;
-    background-image: url(/img/palma.png);
+    background-image: url(/img/palmas2.png);
     @include background;
     background-position: center;
     .div10 {
       h2 {
+        font-family: 'Lobster Two', cursive;
         padding-top: $size4;
         padding-bottom: $height3;
-        color: $color1;
-        font-size: $size2;
+        color: $coloroscuro;
+        font-size: $size2 +$size9;
+        transition: font-size .4s;
+        &:hover{
+          font-size: $size5 +$size9;
+          transition: font-size .4s;
+        }
       }
       h3 {
+        font-family: 'Lobster Two', cursive;
         padding-bottom: $size4;
-        color: $color1;
+        color: $coloroscuro;
         font-size: $size7;
+        transition: font-size .4s;
+        &:hover{
+          font-size: $size7 +$size9;
+          transition: font-size .4s;
+        }
       }
     }
   }
@@ -72,17 +89,19 @@
     }
     .div12, .div13, .div16 {
       background-color: $colorclaro;
+      border: 1px solid rgb(204, 231, 225);
       width: 30vw;
       height: 60vh;
       border-radius: 5px;
       h2 {
-        padding: $height10 $size2 $height3 $size2;
+        padding: $height10 5vw $height3 5vw;
         font-size: $size7;
         color: $coloroscuro;
         text-align: center;
+        font-weight: 500;
       }
       h3 {
-        text-align: justify;
+        text-align: left;
         font-size: $font-size4;
         color: $color5;
         padding: $height3 5vh;
@@ -111,9 +130,9 @@
           font-size: $size11;
         }
         h2 {
-          padding: 0 $size12 $size10 $size12;
+          padding: 0 $size2 $size10 $size2;
           font-size: $size12;
-          text-align: left;
+          text-align: center;
         }
       }
     }
@@ -121,10 +140,10 @@
       @include flexcolumn;
       .div10 {
         h2 {
-          font-size: 8vw;
+          font-size: $width10;
         }
         h3 {
-          font-size: $size2;
+          font-size: $size12 *1.5;
         }
       }
     }
@@ -142,6 +161,7 @@
         h2 {
           font-size: $size5;
           text-align: center;
+          padding: $size4 6vw $height3 6vw;
         }
         h3 {
           font-size: $size12;

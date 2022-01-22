@@ -13,13 +13,21 @@
     background-position: center;
     .div1 {
       h1 {
+        font-family: 'Lobster Two', cursive;
         text-align: right;
         font-style: italic;
         font-size: $size11;
         color: $colorclaro;
         text-shadow: $shadow;
+        transition: text-shadow .4s;
+        &:hover{
+          color: white;
+          text-shadow: $shadow-hover;
+          transition: all .4s;
+        }
       }
       h2 {
+        font-family: 'Lobster Two', cursive;
         font-size: $font-size2;
         text-align: center;
         color: $colorclaro;
@@ -41,12 +49,14 @@
       h2 {
         @include fonts;
         font-size: $size7;
+        font-weight: 600;
         color: $color1;
         padding-bottom: $size4;
         padding-top: $size2;
+        transition: font-size .4s;
         &:hover {
           font-size: $font-size2;
-          transition-duration: 300ms;
+          transition: font-size .4s;
         }
       }
       h3 {
@@ -69,23 +79,31 @@
     align-items: center;
     text-align: center;
     width: auto;
-    height: $heightauto;
+    height: $height10 *3.5;
     padding: $height10 0vh;
-    background-image: url(/img/hojas3.png);
+    background-image: url(/img/palmas2.png);
     @include background;
-    background-position: center;
+    background-position: bottom;
     h2 {
-      font-size: 3vw;
-      color: $color5;
+      font-family: 'Lobster Two', cursive;
+      font-size: $size2;
+      color: $coloroscuro;
       padding-bottom: $height3;
+      transition: font-size .4s;
       &:hover {
-        font-size: 3.5vw;
-        transition-duration: 300ms;
+        font-size: $size2 +$size9;
+        transition: font-size .4s;
       }
     }
     h3 {
-      font-size: $size7;
-      color: $color5;
+      font-family: 'Lobster Two', cursive;
+      font-size: $font-size2;
+      color: $coloroscuro;
+      transition: font-size .4s;
+      &:hover {
+        font-size: $font-size2 +$size9;
+        transition: font-size .4s;
+      }
     }
   }
   .section4, .section5 {
@@ -98,12 +116,14 @@
       width: $width100;
       h2 {
         @include fonts;
+        font-weight: 600;
         font-size: $size7;
         color: $color1;
         padding-bottom: $size4;
+        transition: font-size .4s;
         &:hover {
           font-size: $font-size2;
-          transition-duration: 300ms;
+          transition: font-size .4s;
         }
       }
       h3 {
@@ -115,7 +135,7 @@
     }
     .div5, .div6 {
       img {
-        width: 49.6vw;
+        width: $width50;
         height: $heightauto;
       }
     }
@@ -139,16 +159,12 @@
     .section3 {
       h2 {
         font-size: $size11;
-        &:hover {
-          font-size: 6.5vw;
-          transition-duration: 300ms;
-        }
+        transition: font-size .4s;
       }
       h3 {
-        font-size: $size2;
-        color: $color5;
+          font-size: $size2;
       }
-    }
+   }
     .section2, .section4, .section5 {
       @include flexcolumn;
       width: $width100;
@@ -159,9 +175,10 @@
         h2 {
           font-size: $size11;
           padding: $height10 0 $height3 0;
+          transition: font-size .4s;
           &:hover {
             font-size: 6.3vw;
-            transition-duration: 300ms;
+            transition: font-size .4s;
           }
         }
         h3 {
