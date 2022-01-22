@@ -18,11 +18,13 @@
       color: $colorclaro;
       font-size: $font-size4;
       background-color: $color1;
+      transition: background-color .4s;
       padding: 1vh 2vw;
       border-radius: 5px;
       &:hover {
         color: $colorclaro;
         background-color: $coloroscuro;
+        transition: background-color .4s;
       }
     }
   }
@@ -37,26 +39,36 @@
     .btnmoya{
       @extend %btncomb;
       svg{
+        border-radius: 50%;
+        fill: rgb(217, 181, 211);
+        transition: fill .4s;
         &:hover{
-          fill:rgb(204, 166, 198);
-          transition-duration: 600ms;
+          fill: rgb(223, 178, 253);
+          transition: fill .4s;
         }
       }
     }
     .btnbayana{
       @extend %btncomb;
-      &:hover{
-        svg{
-          fill:rgb(194, 216, 177);
-          transition-duration: 600ms;}
+      svg{
+        border-radius: 50%;
+        fill: rgb(201, 224, 182);
+        transition: fill .4s;
+        &:hover{
+          fill: rgb(214, 252, 186);
+          transition: fill .4s;
+        }
       }
     }
     .btncayena{
       @extend %btncomb;
       svg{
+        border-radius: 50%;
+        fill: rgb(250, 217, 93);
+        transition: fill .4s;
         &:hover{
-          fill:rgb(240, 207, 90);
-          transition-duration: 600ms;
+          fill: rgb(255, 232, 150);
+          transition: fill .4s;
         }
       }
     }

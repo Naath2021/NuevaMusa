@@ -6,6 +6,11 @@
       fill: $colorclaro;
       width: $font-size4;
       height: $heightauto;
+      transition: fill .4s;
+      &:hover{
+        fill: black;
+        transition: fill .4s;
+      }
     }
     .disclaimer {
       font-size: $font-size4;

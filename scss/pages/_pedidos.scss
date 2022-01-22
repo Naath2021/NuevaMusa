@@ -8,7 +8,12 @@
       width: $width10 * 2;
       height: $heightauto;
       border-radius: 50%;
-      box-shadow: 0 0 10px rgb(31, 25, 25);
+      box-shadow: 5px 3px 10px rgb(95, 77, 77);
+      transition: box-shadow .4s;
+      &:hover{
+        box-shadow: 8px 5px 20px rgb(126, 103, 103);
+        transition: box-shadow .4s;
+      }
     }
     h1 {
       color: $coloroscuro;
@@ -30,8 +35,11 @@
       color: $colorclaro;
       padding: 7px;
       margin-bottom: 15vh;
+      transition: background-color .4s;
       &:hover {
+        color: $colorclaro;
         background-color: $coloroscuro;
+        transition: background-color .4s;
       }
     }
   }

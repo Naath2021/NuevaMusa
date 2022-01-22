@@ -21,8 +21,13 @@
       h1 {
         text-align: center;
         font-size: $font-size2;
+        transition: font-size .4s;
         color: $color5;
         padding-bottom: $height3 + $size1;
+        &:hover{
+          font-size: $font-size2 +$size9;
+          transition: font-size .4s;
+        }
       }
       h2 {
         text-align: left;
@@ -38,22 +43,34 @@
     text-align: center;
     align-items: stretch;
     width: auto;
-    height: $heightauto;
+    height: $height10 *3.5;
     text-align: center;
-    background-image: url(/img/palma.png);
+    background-image: url(/img/palmas2.png);
     @include background;
     background-position: center;
     .div10 {
       h2 {
+        font-family: 'Lobster Two', cursive;
         padding-top: $size4;
         padding-bottom: $height3;
-        color: $color1;
+        color: $coloroscuro;
         font-size: $size2;
+        transition: font-size .4s;
+        &:hover{
+          font-size: $size2 +$size9;
+          transition: font-size .4s;
+        }
       }
       h3 {
+        font-family: 'Lobster Two', cursive;
         padding-bottom: $size4;
-        color: $color1;
+        color: $coloroscuro;
         font-size: $size7;
+        transition: font-size .4s;
+        &:hover{
+          font-size: $size7 +$size9;
+          transition: font-size .4s;
+        }
       }
     }
   }
@@ -76,10 +93,11 @@
       height: 60vh;
       border-radius: 5px;
       h2 {
-        padding: $height10 $size2 $height3 $size2;
+        padding: $height10 5vw $height3 5vw;
         font-size: $size7;
         color: $coloroscuro;
         text-align: center;
+        font-weight: 500;
       }
       h3 {
         text-align: justify;

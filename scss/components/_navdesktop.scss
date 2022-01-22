@@ -22,9 +22,10 @@
         li {
           display: inline;
           padding: $size1;
+          transition: background-color .4s;
           &:hover {
             background-color: rgba(8, 167, 125, 0.3);
-            transition-duration: 800ms;
+            transition: background-color .4s;
             padding: $size9;
             border-radius: 5px;
           }
