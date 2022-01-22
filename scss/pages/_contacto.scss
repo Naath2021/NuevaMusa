@@ -66,14 +66,14 @@
       width: 25vw;
       font-size: $font-size4;
       color: $color5;
-      padding-top: $height10;
+      padding-top: $size4;
       padding-bottom: $size10;
     }
   }
   @media screen and (max-width: 768px) {
     .sec-contacto1 {
       h1 {
-        font-size: 5vh;
+        font-size: $size12 +$size7;
       }
       h2 {
         font-size: $size12;
@@ -111,7 +111,7 @@
       }
       h6{
         text-align: center;
-        width: $width80 -$size2;
+        width: $width50 +$width10;
         font-size: $font-size2 +$size9;
         color: $color5;
       }

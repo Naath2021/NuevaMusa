@@ -34,8 +34,9 @@
       text-shadow: 2px 3px 5px #1f1919;
       transition: text-shadow .4s; }
       #bodyindex .section1 .div1 h1:hover {
+        color: white;
         text-shadow: 5px 5px 10px #5f4d4d;
-        transition: text-shadow .4s; }
+        transition: all .4s; }
     #bodyindex .section1 .div1 h2 {
       font-family: 'Lobster Two', cursive;
       font-size: 2vw;
@@ -43,11 +44,7 @@
       color: #dff0ec;
       text-shadow: 2px 3px 5px #1f1919;
       font-style: italic;
-      font-weight: 400;
-      transition: text-shadow .4s; }
-      #bodyindex .section1 .div1 h2:hover {
-        text-shadow: 5px 5px 10px #5f4d4d;
-        transition: text-shadow .4s; }
+      font-weight: 400; }
   #bodyindex .section2 {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
@@ -99,20 +96,20 @@
     background-position: bottom; }
     #bodyindex .section3 h2 {
       font-family: 'Lobster Two', cursive;
-      font-size: 3vw;
+      font-size: 4vw;
       color: #52161b;
       padding-bottom: 3vh;
       transition: font-size .4s; }
       #bodyindex .section3 h2:hover {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         transition: font-size .4s; }
     #bodyindex .section3 h3 {
       font-family: 'Lobster Two', cursive;
-      font-size: 1.5vw;
+      font-size: 2vw;
       color: #52161b;
       transition: font-size .4s; }
       #bodyindex .section3 h3:hover {
-        font-size: 2vw;
+        font-size: 2.5vw;
         transition: font-size .4s; }
   #bodyindex .section4, #bodyindex .section5 {
     font-family: 'Ubuntu', sans-serif;
@@ -159,12 +156,8 @@
     #bodyindex .section3 h2 {
       font-size: 6vw;
       transition: font-size .4s; }
-      #bodyindex .section3 h2:hover {
-        font-size: 6.5vw;
-        transition: font-size .4s; }
     #bodyindex .section3 h3 {
-      font-size: 4vw;
-      color: #28486f; }
+      font-size: 4vw; }
     #bodyindex .section2, #bodyindex .section4, #bodyindex .section5 {
       display: flex;
       flex-direction: column;
@@ -259,10 +252,10 @@
       padding-top: 8vh;
       padding-bottom: 3vh;
       color: #52161b;
-      font-size: 4vw;
+      font-size: 4.5vw;
       transition: font-size .4s; }
       #bodysobremusa .sec-acerca2 .div10 h2:hover {
-        font-size: 4.5vw;
+        font-size: 5.5vw;
         transition: font-size .4s; }
     #bodysobremusa .sec-acerca2 .div10 h3 {
       font-family: 'Lobster Two', cursive;
@@ -290,6 +283,7 @@
         height: 60vh; }
     #bodysobremusa .sec-acerca3 .div12, #bodysobremusa .sec-acerca3 .div13, #bodysobremusa .sec-acerca3 .div16, #bodysobremusa .sec-acerca4 .div12, #bodysobremusa .sec-acerca4 .div13, #bodysobremusa .sec-acerca4 .div16, #bodysobremusa .sec-acerca5 .div12, #bodysobremusa .sec-acerca5 .div13, #bodysobremusa .sec-acerca5 .div16 {
       background-color: #dff0ec;
+      border: 1px solid #cce7e1;
       width: 30vw;
       height: 60vh;
       border-radius: 5px; }
@@ -300,7 +294,7 @@
         text-align: center;
         font-weight: 500; }
       #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
-        text-align: justify;
+        text-align: left;
         font-size: 1vw;
         color: #28486f;
         padding: 3vh 5vh; }
@@ -331,9 +325,9 @@
             padding-top: 8vh;
             font-size: 6vw; }
           #bodysobremusa .sec-acerca1 .div9 h2 {
-            padding: 0 3.5vw 4vh 3.5vw;
+            padding: 0 4vw 4vh 4vw;
             font-size: 3.5vw;
-            text-align: left; }
+            text-align: center; }
       #bodysobremusa .sec-acerca2 {
         display: flex;
         flex-direction: column;
@@ -341,9 +335,9 @@
         justify-content: center;
         align-content: center; }
         #bodysobremusa .sec-acerca2 .div10 h2 {
-          font-size: 8vw; }
+          font-size: 10vw; }
         #bodysobremusa .sec-acerca2 .div10 h3 {
-          font-size: 4vw; }
+          font-size: 5.25vw; }
       #bodysobremusa .sec-acerca3, #bodysobremusa .sec-acerca4, #bodysobremusa .sec-acerca5 {
         display: flex;
         flex-direction: column;
@@ -358,7 +352,8 @@
           height: auto; }
           #bodysobremusa .sec-acerca3 .div12 h2, #bodysobremusa .sec-acerca3 .div13 h2, #bodysobremusa .sec-acerca3 .div16 h2, #bodysobremusa .sec-acerca4 .div12 h2, #bodysobremusa .sec-acerca4 .div13 h2, #bodysobremusa .sec-acerca4 .div16 h2, #bodysobremusa .sec-acerca5 .div12 h2, #bodysobremusa .sec-acerca5 .div13 h2, #bodysobremusa .sec-acerca5 .div16 h2 {
             font-size: 5vw;
-            text-align: center; }
+            text-align: center;
+            padding: 8vh 6vw 3vh 6vw; }
           #bodysobremusa .sec-acerca3 .div12 h3, #bodysobremusa .sec-acerca3 .div13 h3, #bodysobremusa .sec-acerca3 .div16 h3, #bodysobremusa .sec-acerca4 .div12 h3, #bodysobremusa .sec-acerca4 .div13 h3, #bodysobremusa .sec-acerca4 .div16 h3, #bodysobremusa .sec-acerca5 .div12 h3, #bodysobremusa .sec-acerca5 .div13 h3, #bodysobremusa .sec-acerca5 .div16 h3 {
             font-size: 3.5vw;
             text-align: center; } }
@@ -382,16 +377,23 @@
     background-attachment: fixed;
     background-position: center; }
     #bodycombinaciones .sec-comb1 h1 {
-      color: #08a77d;
+      color: #fad95d;
       text-align: right;
       font-size: 4vw;
+      font-family: 'Lobster Two', cursive;
+      text-shadow: 2px 3px 5px #1f1919;
+      transition: text-shadow .4s;
       padding-right: 10vw; }
+      #bodycombinaciones .sec-comb1 h1:hover {
+        text-shadow: 5px 5px 10px #5f4d4d;
+        transition: text-shadow .4s; }
     #bodycombinaciones .sec-comb1 h2 {
-      color: #08a77d;
+      color: #fad95d;
       text-align: right;
-      font-size: 1.5vw;
+      font-size: 1.2vw;
       font-weight: 400;
-      padding-right: 10vw; }
+      padding-right: 10vw;
+      text-shadow: 0.5px 0.5px 1px #1f1919; }
   #bodycombinaciones .sec-comb2 {
     background-color: #faecba; }
     #bodycombinaciones .sec-comb2 h2 {
@@ -425,11 +427,15 @@
         background-attachment: fixed;
         background-position: left; }
         #bodycombinaciones .sec-comb1 h1 {
+          color: #52161b;
           font-size: 6vw;
-          text-align: left; }
+          text-align: left;
+          text-shadow: none; }
         #bodycombinaciones .sec-comb1 h2 {
+          color: #52161b;
           text-align: left;
           font-size: 3.5vw;
+          text-shadow: none;
           width: 50vw; }
       #bodycombinaciones .sec-comb2, #bodycombinaciones .sec-comb3, #bodycombinaciones .sec-comb4 {
         width: 100vw;
@@ -474,7 +480,7 @@
       font-size: 2vw;
       padding: 6vh 0; }
     #bodypedidos section h2 {
-      width: 50vw;
+      width: 40vw;
       height: auto;
       font-size: 1vw;
       text-align: justify;
@@ -574,11 +580,11 @@
       width: 25vw;
       font-size: 1vw;
       color: #28486f;
-      padding-top: 10vh;
+      padding-top: 8vh;
       padding-bottom: 4vh; }
   @media screen and (max-width: 768px) {
     #bodycontacto .sec-contacto1 h1 {
-      font-size: 5vh; }
+      font-size: 5vw; }
     #bodycontacto .sec-contacto1 h2 {
       font-size: 3.5vw; }
     #bodycontacto .sec-contacto2 .input-group {
@@ -608,7 +614,7 @@
         margin: 10vh 0; }
       #bodycontacto .sec-contacto3 h6 {
         text-align: center;
-        width: 76vw;
+        width: 60vw;
         font-size: 2.5vw;
         color: #28486f; } }
 
@@ -800,7 +806,7 @@
     fill: #d9b5d3;
     transition: fill .4s; }
     #bodyindex .btncomb .btnmoya svg:hover, #bodysobremusa .btncomb .btnmoya svg:hover, #bodycombinaciones .btncomb .btnmoya svg:hover, #bodypedidos .btncomb .btnmoya svg:hover, #bodycontacto .btncomb .btnmoya svg:hover {
-      fill: #dfb2fd;
+      fill: #ebceff;
       transition: fill .4s; }
   #bodyindex .btncomb .btnbayana svg, #bodysobremusa .btncomb .btnbayana svg, #bodycombinaciones .btncomb .btnbayana svg, #bodypedidos .btncomb .btnbayana svg, #bodycontacto .btncomb .btnbayana svg {
     border-radius: 50%;

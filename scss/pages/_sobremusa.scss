@@ -54,10 +54,10 @@
         padding-top: $size4;
         padding-bottom: $height3;
         color: $coloroscuro;
-        font-size: $size2;
+        font-size: $size2 +$size9;
         transition: font-size .4s;
         &:hover{
-          font-size: $size2 +$size9;
+          font-size: $size5 +$size9;
           transition: font-size .4s;
         }
       }
@@ -89,6 +89,7 @@
     }
     .div12, .div13, .div16 {
       background-color: $colorclaro;
+      border: 1px solid rgb(204, 231, 225);
       width: 30vw;
       height: 60vh;
       border-radius: 5px;
@@ -100,7 +101,7 @@
         font-weight: 500;
       }
       h3 {
-        text-align: justify;
+        text-align: left;
         font-size: $font-size4;
         color: $color5;
         padding: $height3 5vh;
@@ -129,9 +130,9 @@
           font-size: $size11;
         }
         h2 {
-          padding: 0 $size12 $size10 $size12;
+          padding: 0 $size2 $size10 $size2;
           font-size: $size12;
-          text-align: left;
+          text-align: center;
         }
       }
     }
@@ -139,10 +140,10 @@
       @include flexcolumn;
       .div10 {
         h2 {
-          font-size: 8vw;
+          font-size: $width10;
         }
         h3 {
-          font-size: $size2;
+          font-size: $size12 *1.5;
         }
       }
     }
@@ -160,6 +161,7 @@
         h2 {
           font-size: $size5;
           text-align: center;
+          padding: $size4 6vw $height3 6vw;
         }
         h3 {
           font-size: $size12;

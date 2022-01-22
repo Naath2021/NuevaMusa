@@ -21,8 +21,9 @@
         text-shadow: $shadow;
         transition: text-shadow .4s;
         &:hover{
+          color: white;
           text-shadow: $shadow-hover;
-          transition: text-shadow .4s;
+          transition: all .4s;
         }
       }
       h2 {
@@ -33,11 +34,6 @@
         text-shadow: $shadow;
         font-style: italic;
         font-weight: $weight;
-        transition: text-shadow .4s;
-        &:hover{
-          text-shadow: $shadow-hover;
-          transition: text-shadow .4s;
-        }
       }
     }
   }
@@ -90,22 +86,22 @@
     background-position: bottom;
     h2 {
       font-family: 'Lobster Two', cursive;
-      font-size: 3vw;
+      font-size: $size2;
       color: $coloroscuro;
       padding-bottom: $height3;
       transition: font-size .4s;
       &:hover {
-        font-size: $size12;
+        font-size: $size2 +$size9;
         transition: font-size .4s;
       }
     }
     h3 {
       font-family: 'Lobster Two', cursive;
-      font-size: $size7;
+      font-size: $font-size2;
       color: $coloroscuro;
       transition: font-size .4s;
       &:hover {
-        font-size: $size7 +$size9;
+        font-size: $font-size2 +$size9;
         transition: font-size .4s;
       }
     }
@@ -164,16 +160,11 @@
       h2 {
         font-size: $size11;
         transition: font-size .4s;
-        &:hover {
-          font-size: 6.5vw;
-          transition: font-size .4s;
-        }
       }
       h3 {
-        font-size: $size2;
-        color: $color5;
+          font-size: $size2;
       }
-    }
+   }
     .section2, .section4, .section5 {
       @include flexcolumn;
       width: $width100;

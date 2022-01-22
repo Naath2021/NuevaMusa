@@ -11,17 +11,25 @@
     @include background;
     background-position:center;
     h1 {
-      color: $color3;
+      color: rgb(250, 217, 93);
       text-align: right;
       font-size: $size2;
+      font-family: 'Lobster Two', cursive;
+      text-shadow: $shadow;
+      transition: text-shadow .4s;
       padding-right: $width10;
+      &:hover{
+        text-shadow: $shadow-hover;
+        transition: text-shadow .4s;
+      }
     }
     h2 {
-      color: $color3;
+      color: rgb(250, 217, 93);
       text-align: right;
-      font-size: $size7;
+      font-size: 1.2vw;
       font-weight: $weight;
       padding-right: $width10;
+      text-shadow: 0.5px 0.5px 1px rgb(31, 25, 25);
     }
   }
   .sec-comb2 {
@@ -86,12 +94,16 @@
       @include background;
       background-position:left;
       h1 {
+        color: $coloroscuro;
         font-size: $size11;
         text-align: left;
+        text-shadow: none;
       }
       h2 {
+        color: $coloroscuro;
         text-align: left;
         font-size: $size12;
+        text-shadow: none;
         width: $width50;
       }
     }
